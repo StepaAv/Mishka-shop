@@ -3,75 +3,82 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Мишка</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-<header class="main-header main-header--catalog">
-  <nav class="main-nav">
-    <a href="" class="main-nav__logo"></a>
-    <ul class="main-nav__list">
-      <li class="main-nav__item">Каталог товаров</li>
-      <li class="main-nav__item">Вязание на заказ</li>
-      <li class="main-nav__item">Поиск по сайту</li>
-      <li class="main-nav__item">Корзина: пока пуста</li>
-    </ul>
-  </nav>
-</header>
-<main class="main-page main-page--form">
-    <h1 class="main-page__title"></h1>
-    <p class="main-page__text"></p>
-  <section class="order-form">
-    <form action="" class="form">
-      <ul class="form__list">
-        <li class="form__item form__item--type">
-          <p class="form__legend">tip</p>
-          <input type="radio" class="form__radio">
-          <label class="form__text">akssesuar dlia</label>
-          <input type="radio" class="form__radio">
-          <label class="form__text">detskaja igruska</label>
-        </li>
-        <li class="form__item form__item--color">
-          <p class="form__legend">cvet</p>
-          <ul class="form__color-list">
-            <li class="form__color-item"><input type="checkbox" class="form__checkbox" checked><label for="" class="form__text">belyj</label></li>
-            <li class="form__color-item"><input type="checkbox" class="form__checkbox" checked><label for="" class="form__text">seryj</label></li>
-            <li class="form__color-item"><input type="checkbox" class="form__checkbox"><label for="" class="form__text">tifani</label></li>
-            <li class="form__color-item"><input type="checkbox" class="form__checkbox"><label for="" class="form__text">black</label></li>
-            <li class="form__color-item"><input type="checkbox" class="form__checkbox"><label for="" class="form__text">rozovyj</label></li>
-            <li class="form__color-item"><input type="checkbox" class="form__checkbox"><label for="" class="form__text">orange</label></li>
-          </ul>
-        </li>
-        <li class="form__item form__item--names">
-          <p class="form__legend">FIO</p>
-          <ul class="form__names-list">
-            <li class="form__names-item"><label for="" class="form__text">imia</label><input type="text" class="form__input form__input--names"></li>
-            <li class="form__names-item"><label for="" class="form__text">familija</label><input type="text" class="form__input form__input--names"></li>
-            <li class="form__names-item"><label for="" class="form__text">otchestvo</label><input type="text" class="form__input form__input--names"></li>
-          </ul>
-        </li>
-        <li class="form__item form__item--contacts">
-          <p class="form__legend">tel</p>
-          <input type="text" class="form__input form__input--contacts">
-          <p class="form__legend">email</p>
-          <input type="text" class="form__input form__input--contacts">
-        </li>
-        <li class="form__item form__item--textarea">
-          <p class="form__legend">dop</p>
-          <textarea name="" id="" cols="30" rows="10" class="form__textarea"></textarea>
-        </li>
+<div class="container">
+  <header class="main-header main-header--catalog">
+    <nav class="main-nav">
+      <a href="" class="main-nav__logo"></a>
+      <ul class="main-nav__list">
+        <li class="main-nav__item"><a href="#" class="main-nav__link">Каталог товаров</a></li>
+        <li class="main-nav__item"><a href="#" class="main-nav__link">Вязание на заказ</a></li>
+        <li class="main-nav__item"><a href="#" class="main-nav__link">Поиск по сайту</a></li>
+        <li class="main-nav__item"><a href="#" class="main-nav__link">Корзина: пока пуста</a></li>
       </ul>
-      <p class="order-form__obligatorily">polia obiazatelni</p>
-      <button class="order-form__submit" type="button">otpravit zakaz</button>
-    </form>
-  </section>
+    </nav>
+  </header>
+</div>
+<main class="main-page main-page--form">
+    <h1 class="main-page__title">viazanije na zakaz</h1>
+    <div class="container">
+      <p class="main-page__text"></p>
+        <section class="order-form">
+      <form action="" class="form">
+        <ul class="form__list">
+          <li class="form__item form__item--type">
+            <p class="form__legend">tip</p>
+            <input type="radio" class="form__radio">
+            <label class="form__text">akssesuar dlia</label>
+            <input type="radio" class="form__radio">
+            <label class="form__text">detskaja igruska</label>
+          </li>
+          <li class="form__item form__item--color">
+            <p class="form__legend">cvet</p>
+            <ul class="form__color-list">
+              <li class="form__color-item"><input type="checkbox" class="form__checkbox" checked><label for="" class="form__text">belyj</label></li>
+              <li class="form__color-item"><input type="checkbox" class="form__checkbox" checked><label for="" class="form__text">seryj</label></li>
+              <li class="form__color-item"><input type="checkbox" class="form__checkbox"><label for="" class="form__text">tifani</label></li>
+              <li class="form__color-item"><input type="checkbox" class="form__checkbox"><label for="" class="form__text">black</label></li>
+              <li class="form__color-item"><input type="checkbox" class="form__checkbox"><label for="" class="form__text">rozovyj</label></li>
+              <li class="form__color-item"><input type="checkbox" class="form__checkbox"><label for="" class="form__text">orange</label></li>
+            </ul>
+          </li>
+          <li class="form__item form__item--names">
+            <p class="form__legend">FIO</p>
+            <ul class="form__names-list">
+              <li class="form__names-item"><label for="" class="form__text">imia</label><input type="text" class="form__input form__input--names"></li>
+              <li class="form__names-item"><label for="" class="form__text">familija</label><input type="text" class="form__input form__input--names"></li>
+              <li class="form__names-item"><label for="" class="form__text">otchestvo</label><input type="text" class="form__input form__input--names"></li>
+            </ul>
+          </li>
+          <li class="form__item form__item--contacts">
+            <p class="form__legend">tel</p>
+            <input type="text" class="form__input form__input--contacts">
+            <p class="form__legend">email</p>
+            <input type="text" class="form__input form__input--contacts">
+          </li>
+          <li class="form__item form__item--textarea">
+            <p class="form__legend">dop</p>
+            <textarea name="" id="" cols="30" rows="10" class="form__textarea"></textarea>
+          </li>
+        </ul>
+        <p class="order-form__obligatorily">polia obiazatelni</p>
+        <button class="order-form__submit" type="button">otpravit zakaz</button>
+      </form>
+        </section>
+    </div>
 </main>
 <footer class="main-footer main-footer--form">
-  <section class="social">
-    <ul class="social__list">
-      <li class="social__item"><a href="#" class="social__logo social__logo--inst">inst</a></li>
-      <li class="social__item"><a href="#" class="social__logo social__logo--fb">fb</a></li>
-      <li class="social__item"><a href="#" class="social__logo social__logo--tw">tw</a></li>
-    </ul>
-  </section>
+  <div class="container">
+    <section class="social">
+      <ul class="social__list">
+        <li class="social__item"><a href="#" class="social__logo social__logo--inst">inst</a></li>
+        <li class="social__item"><a href="#" class="social__logo social__logo--fb">fb</a></li>
+        <li class="social__item"><a href="#" class="social__logo social__logo--tw">tw</a></li>
+      </ul>
+    </section>
+  </div>
 </footer>
 
   </body>
