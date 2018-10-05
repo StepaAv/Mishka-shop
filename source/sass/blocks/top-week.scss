@@ -1,0 +1,6 @@
+.top-week {
+  overflow: hidden;
+}
+.top-week__list {
+ @include list-reset;
+}
