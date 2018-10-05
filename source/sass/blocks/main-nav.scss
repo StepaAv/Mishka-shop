@@ -1,0 +1,12 @@
+.main-nav__list--show {
+  display: block;
+}
+.main-nav__logo-wrap {
+  min-height: 50px;
+}
+.main-nav__list {
+  @include list-reset;
+}
+.main-nav__link {
+  @include link-reset;
+}
