@@ -9,4 +9,7 @@
 }
 .main-nav__link {
   @include link-reset;
+  font-size: 17xp;
+  line-height: 24px;
+  font-weight: bold;
 }

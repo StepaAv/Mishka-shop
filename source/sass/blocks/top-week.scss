@@ -1,6 +1,38 @@
 .top-week {
   overflow: hidden;
 }
+.top-week__product {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: bold;
+}
+.top-week__title {
+  color: #63d1bb;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: bold;
+}
 .top-week__list {
  @include list-reset;
+}
+.top-week__text {
+  font-size: 15px;
+  line-height: 24px;
+  color: #444444;
+}
+.top-week__item-option {
+  font-size: 15px;
+  line-height: 20px;
+  color: #444444;
+}
+.top-week__item-stats {
+  font-size: 15px;
+  line-height: 20px;
+  color: #444444;
+}
+.top-week__price {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #444444;
 }

@@ -1,3 +1,11 @@
 .button {
   @include button-reset;
+  width: 260px;
+  height: 52px;
+  border: 2px solid black;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #444444;
 }

@@ -1,3 +1,18 @@
 .contacts__list {
   @include list-reset
 }
+.contacts__title {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+}
+.contacts__desc {
+  font-size: 15px;
+  line-height: 30px;
+  color: #444444;
+}
+.contacts__text {
+  font-size: 15px;
+  line-height: 30px;
+  color: #444444;
+}

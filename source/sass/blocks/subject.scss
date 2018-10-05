@@ -1,6 +1,11 @@
 .subject {
   overflow: hidden;
 }
+.subject__title {
+  font-size: 27px;
+  line-height: 30px;
+  font-weight: bold;
+}
 .subject__img {
   display: block;
   margin-left: -120px;

@@ -1,0 +1,19 @@
+.item-link__title {
+  @include link-reset;
+  display: block;
+  min-height: 104px;
+  color: #ffffff;
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: bold;
+    &--light {
+      background-color: #63d1bb;
+    }
+    &--lego {
+      background-color: #56c3b2;
+    }
+    & svg {
+      fill: #35a999;
+    }
+}
+
