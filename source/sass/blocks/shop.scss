@@ -1,3 +1,9 @@
 .shop__list {
   @include list-reset;
 }
+.shop__title {
+  @include link-reset;
+}
+.shop__buy-basket {
+  @include button-reset;
+}

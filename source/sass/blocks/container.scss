@@ -4,7 +4,8 @@
   margin-right: auto;
   padding: 0 30px;
   outline: 1px solid grey;
-    &.container--subject {
+    &--subject,
+    &--header-mobile {
       padding: 0;
     }
 }

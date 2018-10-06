@@ -12,7 +12,12 @@
   color: #444444;
 }
 .contacts__text {
+  @include link-reset;
   font-size: 15px;
   line-height: 30px;
   color: #444444;
+}
+.contacts__item {
+  display: flex;
+  justify-content: space-between;
 }

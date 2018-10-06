@@ -6,6 +6,13 @@
   font-size: 19px;
   line-height: 24px;
   font-weight: bold;
+    & p {
+      margin: 0;
+      width: 130px;
+      display: inline-block;
+      vertical-align: middle;
+      padding-left: 30px;
+    }
     &--light {
       background-color: #63d1bb;
     }
@@ -17,3 +24,9 @@
     }
 }
 
+.item-link__icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 20px;
+  margin-left: 100px;
+}

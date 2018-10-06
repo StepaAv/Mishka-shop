@@ -24,3 +24,13 @@
   line-height: 30px;
   color: #444444;
 }
+.feedback__slider-list {
+  display: flex;
+}
+.feedback__slider-btn {
+  @include button-reset;
+  width: 130px;
+  border: 1px solid #ececec;
+  height: 50px;
+  pointer: cursor;
+}
