@@ -22,3 +22,67 @@
   line-height: 24px;
   font-weight: bold;
 }
+.main-nav__logo {
+  display: block;
+  padding-top: 20px;
+}
+.main-nav__menu {
+  position: relative;
+}
+.main-nav__menu-close:before {
+  content:"" ;
+  background-image: url(../img/icon-menu-close.svg);
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -50px;
+  right: 20px;
+  cursor: pointer;
+}
+.main-nav__menu-hamburger:before {
+  content:"" ;
+  background-image: url(../img/icon-menu-open.svg);
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -50px;
+  right: 20px;
+  cursor: pointer;
+  display: none;
+}
+.main-nav__menu-checkbox:checked~.main-nav__list {
+  display: none;
+}
+.main-nav__menu-checkbox:checked~.main-nav__menu-close:before {
+  display: none;
+}
+.main-nav__menu-checkbox:checked~.main-nav__menu-hamburger:before {
+  display: block;
+}
+.main-nav__menu-checkbox {
+  display: none;
+}
+.main-nav__link {
+  position: relative;
+  & span {
+    position: absolute;
+    left: -40px;
+  }
+  & svg {
+      fill: #d3d2d2;
+  }
+}
+.main-nav__link:hover {
+  color: #8d8d8d;
+  & svg {
+      fill: #63d1bb;
+  }
+}
+.main-nav__link:active {
+  color: #cacaca;
+  & svg {
+      fill: #d0f1ea;
+  }
+}
