@@ -1,0 +1,21 @@
+.subject {
+  overflow: hidden;
+  min-height: 284px;
+}
+.subject__title {
+  margin: 0;
+  font-size: 27px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 50px;
+  position: relative;
+  z-index: 20;
+}
+.subject__img {
+  display: block;
+  margin-left: -120px;
+  margin-top: -175px;
+  position: relative;
+  z-index: 10;
+}

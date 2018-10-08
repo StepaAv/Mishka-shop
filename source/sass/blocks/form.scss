@@ -1,0 +1,25 @@
+.form__list {
+  @include list-reset;
+}
+.form__color-list {
+  @include list-reset;
+}
+.form__names-list {
+  @include list-reset;
+}
+.form__type-list {
+  @include list-reset;
+}
+.form__legend {
+  font-size: 17px;
+  line-height: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #63d1bb;
+}
+.form__text {
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: bold;
+  // display: block;
+}

@@ -1,0 +1,19 @@
+.about-us__list {
+  @include list-reset;
+}
+
+.about-us__icon {
+  & svg {
+    fill: #63d1bb;
+  }
+}
+.about-us__title {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: bold;
+}
+.about-us__text {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: bold;
+}

@@ -1,0 +1,11 @@
+.developed__title {
+  font-size: 19px;
+  line-height: 18px;
+  font-weight: bold;
+  color: #444444;
+  & svg {
+    fill: #63d1bb;
+    width: 50px;
+    height: 50px;
+  }
+}

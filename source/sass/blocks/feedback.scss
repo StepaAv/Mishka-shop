@@ -1,0 +1,36 @@
+.feedback__list {
+  @include list-reset;
+}
+.feedback__slider-list {
+  @include list-reset
+}
+.feedback__title {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: bold;
+}
+.feedback__text {
+  font-size: 15px;
+  line-height: 30px;
+  color: #444444;
+}
+.feedback__author {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: bold;
+}
+.feedback__author-mail {
+  font-size: 17px;
+  line-height: 30px;
+  color: #444444;
+}
+.feedback__slider-list {
+  display: flex;
+}
+.feedback__slider-btn {
+  @include button-reset;
+  width: 130px;
+  border: 1px solid #ececec;
+  height: 50px;
+  pointer: cursor;
+}
