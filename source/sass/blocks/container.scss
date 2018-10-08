@@ -5,7 +5,8 @@
   padding: 0 30px;
   outline: 1px solid grey;
     &--subject,
-    &--header-mobile {
+    &--header-mobile,
+    &--nopad {
       padding: 0;
     }
 }

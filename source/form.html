@@ -20,7 +20,9 @@
   </header>
 </div>
 <main class="main-page main-page--form">
-    <h1 class="main-page__title">Вязание на заказ</h1>
+    <div class="container container--nopad">
+      <h1 class="main-page__title">Вязание на заказ</h1>
+    </div>
     <div class="container">
       <p class="main-page__text">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</p>
         <section class="order-form">
@@ -28,10 +30,16 @@
         <ul class="form__list">
           <li class="form__item form__item--type">
             <p class="form__legend">Тип</p>
-            <input type="radio" class="form__radio">
-            <label class="form__text">Аксессуар для интерьера</label>
-            <input type="radio" class="form__radio">
-            <label class="form__text">Детская игрушка</label>
+            <ul class="form__type-list">
+              <li class="form__type-item">
+                <input type="radio" name="type" class="form__radio">
+                <label class="form__text">Аксессуар для интерьера</label>
+              </li>
+              <li class="form__type-item">
+                <input type="radio" name="type" class="form__radio">
+                <label class="form__text">Детская игрушка</label>
+              </li>
+            </ul>
           </li>
           <li class="form__item form__item--color">
             <p class="form__legend">Цвет</p>
