@@ -10,3 +10,14 @@
       padding: 0;
     }
 }
+
+@media (min-width: $tablet-width) {
+  .container {
+    width: $tablet-width;
+    margin: 0 auto;
+    padding: 0 50px;
+    &--header-mobile {
+      padding: 0;
+    }
+  }
+}

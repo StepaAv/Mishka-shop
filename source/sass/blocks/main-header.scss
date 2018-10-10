@@ -1,0 +1,19 @@
+.main-header__delivery {
+  display: none;
+}
+
+@media (min-width: $tablet-width) {
+  .main-header__delivery {
+  margin: 0;
+  display: block;
+  color: #444444;
+  background-color: #fbfbfb;
+  font-size: 15px;
+  line-height: 24px;
+  width: 250px;
+  float: right;
+  margin-top: -50px;
+  position: relative;
+  z-index: 30;
+  }
+}
