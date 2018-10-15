@@ -1,11 +1,13 @@
 .item-link__title {
   @include link-reset;
   display: block;
-  min-height: 104px;
+  height: 104px;
   color: #ffffff;
   font-size: 19px;
   line-height: 24px;
   font-weight: bold;
+  position: relative;
+  z-index: 100;
     & p {
       margin: 0;
       width: 130px;
@@ -15,12 +17,22 @@
     }
     &--light {
       background-color: #63d1bb;
+      &:hover {
+        background-color: #59d5bc;
+      }
     }
     &--lego {
       background-color: #56c3b2;
+      &:hover {
+        background-color: #46c1ae;
+      }
     }
     & svg {
       fill: #35a999;
+    }
+    &:hover {
+      height: 109px;
+      margin-top: -5px;
     }
 }
 
@@ -29,4 +41,13 @@
   vertical-align: middle;
   margin-top: 20px;
   margin-left: 100px;
+}
+
+@media (min-width: $tablet-width) {
+  .item-link {
+    display: flex;
+  }
+  .item-link__title {
+    width: 334px;
+  }
 }

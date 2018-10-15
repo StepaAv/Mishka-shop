@@ -16,10 +16,54 @@
   font-weight: bold;
   text-transform: uppercase;
   color: #63d1bb;
+  padding-right: 23px;
+  white-space: nowrap;
+
 }
 .form__text {
   font-size: 17px;
   line-height: 18px;
   font-weight: bold;
-  // display: block;
+}
+
+.form__item--type {
+  heigh: 173px;
+}
+.form__item--color {
+  height: 417px;
+}
+.form__item--names {
+  height: 330px;
+}
+.form__item--contacts {
+  height: 213px;
+}
+.fomr__item--textarea {
+  height: 188px;
+}
+.form__color-item {
+  height: 50px;
+}
+.form__input {
+  display: block;
+  width: 260px;
+  border: none;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+}
+.form__names-item {
+  min-height: 60px;
+}
+.form__text-decor {
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin-top: 25px;
+  background-color: #62d1ba;
+}
+.form__legend-wrap {
+  display: flex;
+}
+.form__radio {
+  display: none;
 }

@@ -19,5 +19,29 @@
 }
 .contacts__item {
   display: flex;
-  justify-content: space-between;
+  // justify-content: space-between;
+}
+.contacts__map {
+  display: block;
+  margin: 0 auto;
+}
+@media (min-width: $tablet-width) {
+  .contacts__list {
+    display: flex;
+  }
+  .contacts__item {
+    width: 334px;
+    display: flex;
+  }
+  .contacts__text {
+    display: block;
+  }
+  .contacts__desc {
+    width: 70px;
+  }
+  .contacts__map {
+    width: 764px;
+    margin: 0 auto;
+
+  }
 }

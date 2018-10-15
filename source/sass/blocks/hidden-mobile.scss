@@ -1,0 +1,8 @@
+.hidden-mobile {
+  display: none;
+}
+@media (min-width: $tablet-width) {
+  .hidden-mobile {
+  display: block;
+}
+}

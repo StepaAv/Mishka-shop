@@ -34,3 +34,24 @@
   height: 50px;
   pointer: cursor;
 }
+@media (min-width: $tablet-width) {
+  .feedback {
+    min-height: 520px;
+  }
+  .feedback__wrap {
+    min-height: 453px;
+    background-image: url(../img/review@1x.jpg);
+    background-repeat: no-repeat;
+    margin-left: -50px;
+  }
+  .feedback__write-btn {
+    display: block;
+    margin-bottom: 220px;
+  }
+  .feedback__btn-wrap {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    margin-top: -400px;
+  }
+}
