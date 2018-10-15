@@ -1,0 +1,7 @@
+.decoration {
+  display: block;
+  & svg {
+    width: 100vw;
+    height: 10px;
+  }
+}

@@ -1,5 +1,19 @@
+.social {
+  height: 80px;
+  border-bottom: 1px solid #e5e5e5;
+  width: 260px;
+  margin: 0 auto;
+}
 .social__list {
   @include list-reset;
   display: flex;
   justify-content: space-around;
+}
+.social__logo {
+  &:hover>svg {
+    fill: #46c1ae;
+  }
+  &:active>svg {
+    fill: #bde3dd;
+  }
 }

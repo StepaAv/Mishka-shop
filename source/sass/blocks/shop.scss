@@ -1,27 +1,6 @@
 .shop__list {
   @include list-reset;
 }
-.shop__title {
-  @include link-reset;
-  font-size: 17px;
-  line-height: 24px;
-  font-weight: bold;
-}
-.shop__buy-basket {
-  @include button-reset;
-}
-.shop__description {
-  font-size: 13px;
-  line-height: 30px;
-  color: #444444;
-}
-.shop__price {
-  font-size: 15px;
-  line-height: 24px;
-  font-weight: bold;
-}
-.shop__buy-basket {
-  & svg {
-    fill: #cccccc;
-  }
+.shop__item {
+  margin-bottom: 20px;
 }

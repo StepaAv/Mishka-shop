@@ -20,3 +20,33 @@ position: relative;
   font-size: 13px;
   line-height: 24px;
 }
+.manufacture__movie-wrap {
+  position: relative;
+}
+.manufacture__play-btn {
+  @include button-reset;
+  cursor: pointer;
+  position: absolute;
+  top: 25%;
+  left: 31%;
+  & svg {
+    fill: #63D1BB;
+  }
+  &:hover {
+    top: 27%;
+    left: 29%;
+  }
+  &:hover svg {
+    width: 110px;
+    height: 90px;
+  }
+  &:active {
+    top: 22%;
+    left: 35%;
+  }
+  &:active svg {
+    width: 80px;
+    height: 75px;
+    fill: #d0f1ea;
+  }
+}

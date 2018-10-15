@@ -6,7 +6,8 @@
   outline: 1px solid grey;
     &--subject,
     &--header-mobile,
-    &--nopad {
+    &--nopad,
+    &--footer {
       padding: 0;
     }
 }

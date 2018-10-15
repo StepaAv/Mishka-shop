@@ -35,6 +35,13 @@
       margin-top: -5px;
     }
 }
+.item-link__title--light:active>.item-link__icon svg {
+  fill: #44c0aa;
+}
+
+.item-link__title--lego:active>.item-link__icon svg {
+  fill: #37b2a0;
+}
 
 .item-link__icon {
   display: inline-block;
