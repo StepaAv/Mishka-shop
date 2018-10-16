@@ -1,15 +1,19 @@
 .form__list {
   @include list-reset;
 }
+
 .form__color-list {
   @include list-reset;
 }
+
 .form__names-list {
   @include list-reset;
 }
+
 .form__type-list {
   @include list-reset;
 }
+
 .form__legend {
   font-size: 17px;
   line-height: 16px;
@@ -20,6 +24,7 @@
   white-space: nowrap;
 
 }
+
 .form__text {
   font-size: 17px;
   line-height: 18px;
@@ -29,37 +34,47 @@
 .form__item--type {
   heigh: 173px;
 }
+
 .form__item--color {
   height: 417px;
 }
+
 .form__item--names {
   height: 330px;
 }
+
 .form__item--contacts {
   height: 213px;
 }
+
 .fomr__item--textarea {
   height: 188px;
 }
+
 .form__color-item {
   height: 50px;
 }
+
 .form__input {
   display: block;
   width: 260px;
   border: none;
   border-bottom: 2px solid #000000;
   padding-bottom: 5px;
+
   &:hover {
     border-bottom: 2px solid #62d1ba;
   }
+
   &:focus {
     border-bottom: 2px solid #62d1ba;
   }
 }
+
 .form__names-item {
   min-height: 60px;
 }
+
 .form__text-decor {
   display: block;
   width: 100%;
@@ -67,9 +82,141 @@
   margin-top: 25px;
   background-color: #62d1ba;
 }
+
 .form__legend-wrap {
   display: flex;
 }
+
 .form__radio {
   display: none;
 }
+
+.form__type-item {
+  position: relative;
+}
+
+// WWWWWWWWW RADIO WWWWWWW
+.form__text--radio {
+  &:before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: -20px;
+    top: 0;
+  }
+}
+
+.form__text--radio:hover {
+  &:before {
+    border: 1px solid green;
+  }
+
+  &:after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    left: -18px;
+    top: 0;
+  }
+}
+
+.form__radio:checked~.form__text:after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  border-radius: 50%;
+  position: absolute;
+  left: -18px;
+  top: 0;
+}
+
+// .form__radio--toy:checked~.form__text--toy:after {
+//   content: "";
+//   width: 10px;
+//   height: 10px;
+//   background-color: green;
+//   border-radius: 50%;
+//   position: absolute;
+//   left: 20px;
+//   top: 0;
+// }
+
+// WWWWWWWWW CHECKBOX WWWWWWWWW
+.form__checkbox {
+  display: none;
+}
+
+.form__color-item {
+  position: relative;
+}
+
+.form__text {
+  &--white:before,
+  &--grey:before,
+  &--tiff:before,
+  &--black:before,
+  &--rose:before,
+  &--orange:before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    position: absolute;
+    left: -25px;
+    top: 0;
+  }
+   &--white:hover:before,
+  &--grey:hover:before,
+  &--tiff:hover:before,
+  &--black:hover:before,
+  &--rose:hover:before,
+  &--orange:hover:before {
+    content: "";
+    border: 1px solid green;
+  }
+  &--white:hover:after,
+  &--grey:hover:after,
+  &--tiff:hover:after,
+  &--black:hover:after,
+  &--rose:hover:after,
+  &--orange:hover:after {
+    content: "";
+    background-image: url(../img/icon-tick.svg);
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: -25px;
+    top: 0;
+  }
+}
+
+.form__checkbox:checked~.form__text:after {
+  content: "";
+  background-image: url(../img/icon-tick.svg);
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: -25px;
+  top: 0;
+}
+ // WWWWWWWWWWWWWWWWWWWWWW
+ .form__textarea {
+  width: 240px;
+  height: 200px;
+  border: 2px solid #444444;
+  &:hover {
+    border-color: #62d1ba;
+  }
+  &:focus {
+    border-color: #62d1ba;
+  }
+ }

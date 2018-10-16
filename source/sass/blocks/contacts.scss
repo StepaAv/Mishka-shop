@@ -17,8 +17,15 @@
   line-height: 30px;
   color: #444444;
   &--mail {
-    border-bottom: 1px solid #62d1ba;
+    border-bottom: 1px solid #62d1ba;;
     height: 30px;
+    &:hover {
+      color: #62d1ba;
+    }
+    &:active {
+      color: #d0f1ea;
+      border-color: #d0f1ea;
+    }
   }
 }
 .contacts__item {
