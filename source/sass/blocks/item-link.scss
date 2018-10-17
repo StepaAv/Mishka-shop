@@ -1,7 +1,8 @@
+
 .item-link__title {
   @include link-reset;
   display: block;
-  height: 104px;
+  min-height: 103px;
   color: #ffffff;
   font-size: 19px;
   line-height: 24px;
@@ -14,11 +15,13 @@
       display: inline-block;
       vertical-align: middle;
       padding-left: 30px;
+      padding-top: 5px;
     }
     &--light {
       background-color: #63d1bb;
       &:hover {
         background-color: #59d5bc;
+        margin-top: -69px;
       }
     }
     &--lego {
@@ -31,7 +34,7 @@
       fill: #35a999;
     }
     &:hover {
-      height: 109px;
+      min-height: 109px;
       margin-top: -5px;
     }
 }
@@ -47,7 +50,7 @@
   display: inline-block;
   vertical-align: middle;
   margin-top: 20px;
-  margin-left: 100px;
+  margin-left: 109px;
 }
 
 @media (min-width: $tablet-width) {

@@ -8,14 +8,17 @@
   line-height: 30px;
   font-weight: bold;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 70px;
   position: relative;
   z-index: 20;
 }
+.subject__img-wrap {
+  height: 285px;
+}
 .subject__img {
   display: block;
-  margin-left: -120px;
-  margin-top: -175px;
+  margin-left: -130px;
+  margin-top: -163px;
   position: relative;
   z-index: 10;
 }

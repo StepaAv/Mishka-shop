@@ -3,7 +3,7 @@
 }
 
 .main-nav__logo-wrap {
-  min-height: 79px;
+  height: 80px;
   padding-left: 100px;
   border-bottom: 1px solid #ececec;
 }
@@ -32,7 +32,8 @@
 
 .main-nav__logo {
   display: block;
-  padding-top: 20px;
+  padding-top: 9px;
+  padding-left: 6px;
   &:hover {
     opacity: 0.7;
   }
@@ -53,7 +54,7 @@
   height: 50px;
   position: absolute;
   top: -50px;
-  right: 20px;
+  right: 0px;
   cursor: pointer;
 }
 
@@ -65,7 +66,7 @@
   height: 50px;
   position: absolute;
   top: -50px;
-  right: 20px;
+  right: 0px;
   cursor: pointer;
   display: none;
 }
