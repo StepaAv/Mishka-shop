@@ -19,4 +19,9 @@
 .main-page__decor {
   margin-top: 38px;
 }
-
+@media (min-width: $tablet-width) {
+  .main-page__precontainer {
+    width: 100vw;
+    background-color: #f9f9f9;
+  }
+}

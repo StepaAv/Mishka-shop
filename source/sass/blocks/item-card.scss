@@ -67,3 +67,9 @@
     fill: #cccccc;
   }
 }
+
+@media (min-width: $tablet-width) {
+ .item-card {
+  display: flex;
+ }
+}

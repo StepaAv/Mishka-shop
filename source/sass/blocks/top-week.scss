@@ -80,7 +80,6 @@
   }
   .top-week__tablet-wrap {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
   }
   .top-week__text {
@@ -94,7 +93,11 @@
     width: 334px;
     height: 403px;
   }
+  .top-week__img-wrap {
+    height: 250px;
+    overflow: visible;
+  }
   .top-week__price-wrap {
-    margin-top: -150px;
+    width: 334px;
   }
 }

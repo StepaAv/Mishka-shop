@@ -1,6 +1,4 @@
-.feedback__list {
-  @include list-reset;
-}
+
 .feedback__slider-list {
   @include list-reset
 }
@@ -37,10 +35,11 @@
 }
 .feedback__write-btn {
   display: block;
-  margin-top: 34px;
+  margin-top: 36px;
 }
 .feedback__slider-list {
   display: flex;
+  margin-top: 31px;
 }
 .feedback__slider-btn {
   @include button-reset;
@@ -57,23 +56,28 @@
 }
 
 @media (min-width: $tablet-width) {
-  .feedback {
-    min-height: 520px;
-  }
-  .feedback__wrap {
-    min-height: 453px;
-    background-image: url(../img/review@1x.jpg);
-    background-repeat: no-repeat;
-    margin-left: -50px;
-  }
-  .feedback__write-btn {
-    display: block;
-    margin-bottom: 220px;
-  }
-  .feedback__btn-wrap {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: flex-end;
-    margin-top: -400px;
-  }
+.feedback {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(../img/review@1x.jpg);
+  background-repeat: no-repeat;
+  min-height: 460px;
+ }
+ .feedback__title {
+  order: 1;
+ }
+ .feedback__write-btn {
+  order: 2;
+ }
+ .feedback__text {
+  order: 3;
+  overflow: auto;
+  // min-height: 200px;
+ }
+ .feedback__author-wrap {
+  order: 4;
+ }
+ .feedback__slider-list {
+  order: 5;
+ }
 }
