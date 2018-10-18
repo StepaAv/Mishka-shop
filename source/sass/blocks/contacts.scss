@@ -1,12 +1,16 @@
 .contacts__list {
   @include list-reset
+  margin-top: 10px;
 }
 .contacts__title {
+  margin: 0;
+  margin-top: 32px;
   font-size: 18px;
   line-height: 30px;
   font-weight: bold;
 }
 .contacts__desc {
+  margin-right: 30px;
   font-size: 15px;
   line-height: 30px;
   color: #444444;
@@ -17,6 +21,8 @@
   line-height: 30px;
   color: #444444;
   &--mail {
+    display: block;
+    margin-top: 15px;
     border-bottom: 1px solid #62d1ba;;
     height: 30px;
     &:hover {
@@ -35,6 +41,14 @@
 .contacts__map {
   display: block;
   margin: 0 auto;
+  &-wrap {
+    margin-top: 20px;
+  }
+}
+.contacts__btn {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 @media (min-width: $tablet-width) {
   .contacts__list {

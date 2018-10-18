@@ -15,12 +15,14 @@
   min-height: 106px;
   border-bottom: 1px solid #ededed;
   margin: 0 auto;
-  padding-top: 30px;
+  padding-top: 27px;
+  // padding-bottom: 26px;
 }
 .item-card__price-wrap {
   display: flex;
   margin: 0 auto;
   width: 206px;
+  padding-bottom: 26px;
 }
 .item-card__title {
   @include link-reset;
@@ -43,11 +45,15 @@
 }
 .item-card__description {
   margin: 0;
+  padding-top: 5px;
+  padding-bottom: 19px;
   font-size: 13px;
   line-height: 30px;
   color: #444444;
 }
 .item-card__price {
+  margin: 0;
+  padding-top: 23px;
   width: 103px;
   font-size: 15px;
   line-height: 24px;
@@ -55,6 +61,8 @@
   flex-grow: 1;
 }
 .item-card__buy-basket {
+  display: block;
+  padding-top: 20px;
   & svg {
     fill: #cccccc;
   }

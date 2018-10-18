@@ -1,9 +1,16 @@
+.manufacture {
+  border: 1px solid #ececec;
+  min-height: 504px;
+}
 .manufacture__title {
+margin: 0;
+padding-top: 23px;
+padding-left: 88px;
+padding-bottom: 24px;
 font-size: 17px;
 line-height: 24px;
 font-weight: bold;
 width: 140px;
-padding-left: 100px;
 position: relative;
   &:before {
     content: "";
@@ -17,6 +24,11 @@ position: relative;
   }
 }
 .manufacture__desc {
+  margin: 0;
+  padding-top: 23px;
+  padding-left: 33px;
+  padding-bottom: 23px;
+  width: 223px;
   font-size: 13px;
   line-height: 24px;
 }
@@ -49,4 +61,11 @@ position: relative;
     height: 75px;
     fill: #d0f1ea;
   }
+}
+
+.manufacture__btn {
+  display: block;
+  width: 190px;
+  margin-left: 33px;
+  margin-bottom: 35px;
 }

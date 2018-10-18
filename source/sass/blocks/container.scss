@@ -3,12 +3,18 @@
   margin-left: auto;
   margin-right: auto;
   padding: 0 30px;
-  outline: 1px solid grey;
+  // outline: 1px solid grey;
     &--subject,
     &--header-mobile,
     &--nopad,
     &--footer {
       padding: 0;
+    }
+    &--nowidth {
+      width: 100vw;
+    }
+    &--manufacture {
+      margin-bottom: 55px;
     }
 }
 

@@ -5,24 +5,39 @@
   @include list-reset
 }
 .feedback__title {
+  margin: 0;
+  padding-top: 55px;
   font-size: 25px;
   line-height: 30px;
   font-weight: bold;
 }
 .feedback__text {
+  margin: 0;
+  padding-top: 25px;
   font-size: 15px;
   line-height: 30px;
   color: #444444;
 }
 .feedback__author {
+  margin: 0;
+  padding-top: 25px;
   font-size: 17px;
   line-height: 24px;
   font-weight: bold;
 }
 .feedback__author-mail {
+  margin-top: 5px;
+  display: block;
   font-size: 17px;
   line-height: 30px;
   color: #444444;
+}
+.feedback__btn-wrap {
+  margin-top: 34px;
+}
+.feedback__write-btn {
+  display: block;
+  margin-top: 34px;
 }
 .feedback__slider-list {
   display: flex;

@@ -1,5 +1,12 @@
+.developed {
+  min-height: 79px;
+  width: 260px;
+  margin: 0 auto;
+}
 .developed__title {
   @include link-reset;
+  display: block;
+  padding-left: 37px;
   font-size: 19px;
   line-height: 18px;
   font-weight: bold;
