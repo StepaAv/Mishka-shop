@@ -71,5 +71,25 @@
 @media (min-width: $tablet-width) {
  .item-card {
   display: flex;
+  min-height: 332px;
+  width: 668px;
+ }
+ .item-card__picture {
+  width: 334px;
+  height: 334px;
+ }
+ .item-card__box-wrap {
+  width: 334px;
+  height: 334px;
+  margin-top: 0px;
+ }
+ .item-card__desc-wrap {
+  width: 268px;
+  min-height: 260px;
+ }
+ .item-card__price-wrap {
+  width: 334px;
+  padding-left: 33px;
+  padding-right: 33px;
  }
 }
