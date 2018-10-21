@@ -17,7 +17,6 @@
       margin-bottom: 55px;
     }
 }
-
 @media (min-width: $tablet-width) {
   .container {
     width: $tablet-width;
@@ -37,5 +36,18 @@
     &--nowidth {
       width: 100vw;
   }
+    &--maxwidth {
+      width: 100vw;
+    }
+    &--colored {
+      background-color: #f1f1f1;
+    }
+}
+}
+@media (min-width: $desktop-width) {
+.container {
+    width: $desktop-width;
+    margin: 0 auto;
+    padding: 0 50px;
 }
 }

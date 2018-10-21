@@ -69,3 +69,22 @@ position: relative;
   margin-left: 33px;
   margin-bottom: 35px;
 }
+
+@media (min-width: $tablet-width) {
+  .manufacture {
+    display: flex;
+    flex-direction: column;
+  }
+  .manufacture__movie-wrap {
+    order: 1;
+  }
+  .manufacture__title {
+    order: 2;
+  }
+.manufacture__desc {
+  order: 3;
+}
+.manufacture__btn {
+  order: 4;
+}
+}
