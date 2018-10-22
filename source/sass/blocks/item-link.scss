@@ -21,7 +21,6 @@
       background-color: #63d1bb;
       &:hover {
         background-color: #59d5bc;
-        margin-top: -69px;
       }
     }
     &--lego {
@@ -34,7 +33,7 @@
       fill: #35a999;
     }
     &:hover {
-      min-height: 109px;
+      min-height: 108px;
       margin-top: -5px;
     }
 }
@@ -56,8 +55,24 @@
 @media (min-width: $tablet-width) {
   .item-link {
     display: flex;
+
   }
   .item-link__title {
     width: 334px;
+    min-height: 120px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  & p {
+      padding-left: 34px;
+      padding-top: 19px;
+  }
   }
 }
+@media (min-width: $desktop-width) {
+.item-link__title {
+      font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  }
+  }

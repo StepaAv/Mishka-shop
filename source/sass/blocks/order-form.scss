@@ -7,3 +7,12 @@
   margin-top: 29px;
   margin-bottom: 56px;
 }
+@media (min-width: $tablet-width) {
+.order-form__obligatorily {
+  font-size: 17px;
+  line-height: 30px;
+}
+}
+@media (min-width: $desktop-width) {
+
+  }

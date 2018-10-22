@@ -92,4 +92,16 @@
   padding-left: 33px;
   padding-right: 33px;
  }
+ .item-card__title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+ }
+ .item-card__description {
+  font-size: 15px;
+  line-height: 30px;
+ }
 }
+@media (min-width: $desktop-width) {
+
+  }

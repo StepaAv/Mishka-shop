@@ -79,12 +79,21 @@ position: relative;
     order: 1;
   }
   .manufacture__title {
+    font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
     order: 2;
   }
 .manufacture__desc {
   order: 3;
+  font-size: 15px;
+  line-height: 30px;
 }
 .manufacture__btn {
   order: 4;
 }
+
 }
+@media (min-width: $desktop-width) {
+
+  }

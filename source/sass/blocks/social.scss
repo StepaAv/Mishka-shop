@@ -1,9 +1,7 @@
 .social {
   width: 180px;
   height: 80px;
-  padding-top: 30px;
   border-bottom: 1px solid #e5e5e5;
-  margin: 0 auto;
 }
 .social__list {
   @include list-reset;
@@ -18,3 +16,6 @@
     fill: #bde3dd;
   }
 }
+@media (min-width: $desktop-width) {
+
+  }

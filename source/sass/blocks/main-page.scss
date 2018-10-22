@@ -21,7 +21,48 @@
 }
 @media (min-width: $tablet-width) {
   .main-page__precontainer {
-    width: 100vw;
+    width: 100%;
     background-color: #f9f9f9;
+    position: relative;
+    &:after {
+      content: "";
+      background-image: url(.s./img/bg-zigzag-fill.svg);
+      width: 100vw;
+      height: 20px;
+      position: absolute;
+      bottom: 0px;
+      z-index: 500;
+    }
+  }
+  .main-page__title {
+    font-size: 43px;
+  line-height: 50px;
+  font-weight: bold;
+  }
+  .main-page__text {
+    font-size: 17px;
+  line-height: 30px;
+  }
+  .main-page__decor--bottom {
+    padding-top: 35px;
+  }
+  .main-page--index {
+    position: relative;
+    &:before {
+      content: "";
+      width: 100vw;
+      height: 50px;
+      background-color: #f9f9f9;
+      position: absolute;
+      z-index: 1;
+      top: -44px;
+      border-top: 1px solid #e7e7e7;
+    }
   }
 }
+@media (min-width: $desktop-width) {
+.main-page__title {
+    font-size: 53px;
+  line-height: 57px;
+  }
+  }

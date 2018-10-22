@@ -45,50 +45,97 @@
   font-weight: bold;
 }
 @media (min-width: $tablet-width) {
+  .about-us__title {
+  margin: 0;
+  padding-top: 45px;
+  padding-left: 0;
+}
+
   .about-us {
-  min-height: 560px;
+  min-height: 600px;
 }
   .about-us__list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    // align-items: center;
+    margin-top: 65px;
   }
   .about-us__item {
-  min-height: 100px;
+  min-height: 159px;
+  // padding-bottom: 50px;
   &:nth-of-type(1) {
     width: 334px;
-    padding-right: 80px;
+    // padding-right: 80px;
     order: 1;
   }
   &:nth-of-type(2) {
     padding-top: 0;
     width: 334px;
-    padding-right: 80px;
+    // padding-right: 80px;
     order: 3;
   }
   &:nth-of-type(3) {
     padding-top: 0;
     width: 334px;
-    padding-right: 80px;
+    // padding-right: 80px;
     order: 5;
   }
   &:nth-of-type(4) {
     padding-top: 0;
     width: 334px;
-    padding-right: 80px;
+    // padding-right: 80px;
     order: 2;
   }
   &:nth-of-type(5) {
     padding-top: 0;
     width: 334px;
-    padding-right: 80px;
+    // padding-right: 80px;
     order: 4;
   }
   &:nth-of-type(6) {
     padding-top: 0;
     width: 334px;
-    padding-right: 80px;
+    // padding-right: 80px;
     order: 6;
   }
 }
+.about-us__title {
+  font-size: 43px;
+  line-height: 50px;
+  font-weight: bold;
 }
+.about-us__text {
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: bold;
+  &--flower {
+    width: 212px;
+  }
+  &--thread {
+    width: 256px;
+  }
+  &--money {
+    width: 240px;
+  }
+  &--heart {
+    width: 220px;
+  }
+  &--gift {
+    width: 240px;
+  }
+}
+}
+
+@media (min-width: $desktop-width) {
+.about-us__title {
+  font-size: 53px;
+  line-height: 57px;
+  font-weight: bold;
+}
+.about-us__text {
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: bold;
+}
+  }

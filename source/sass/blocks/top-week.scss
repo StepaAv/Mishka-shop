@@ -87,6 +87,7 @@
   }
   .top-week__list {
     width: 334px;
+    padding-top: 44px;
   }
   .top-week__img {
     display: block;
@@ -96,8 +97,80 @@
   .top-week__img-wrap {
     height: 250px;
     overflow: visible;
+    margin-top: 55px;
   }
   .top-week__price-wrap {
     width: 334px;
   }
+  .top-week__product {
+      font-size: 43px;
+  line-height: 50px;
+  font-weight: bold;
+  margin-top: 41px;
+  }
+  .top-week__title {
+      font-size: 17px;
+  line-height: 17px;
+  font-weight: bold;
+  margin-top: 54px;
+  width: 94px;
+  padding-left: 144px;
+  }
+  .top-week__price {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 69px;
+  }
+  .top-week__text {
+      font-size: 17px;
+  line-height: 30px;
+  margin-top: 52px;
+  width: 300px;
+  }
+  .top-week__btn {
+    width: 290px;
+  }
+  .top-week__item-option {
+      font-size: 15px;
+  line-height: 20px;
+  }
+  .top-week__item-stats {
+      font-size: 15px;
+  line-height: 20px;
+  }
+  .top-week__item-price {
+      font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+  }
 }
+@media (min-width: $desktop-width) {
+.top-week__product {
+      font-size: 53px;
+  line-height: 57px;
+  }
+.top-week__title {
+      font-size: 17px;
+  line-height: 17px;
+  font-weight: bold;
+  }
+  .top-week__text {
+      font-size: 17px;
+  line-height: 30px;
+  }
+  .top-week__item-option {
+      font-size: 15px;
+  line-height: 20px;
+  }
+  .top-week__item-stats {
+      font-size: 15px;
+  line-height: 20px;
+  }
+  .top-week__item-price {
+      font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+  }
+  }

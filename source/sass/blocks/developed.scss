@@ -1,7 +1,6 @@
 .developed {
   min-height: 79px;
   width: 260px;
-  margin: 0 auto;
 }
 .developed__title {
   @include link-reset;
@@ -28,3 +27,6 @@
 .developed__title:active>span svg {
   fill: #bde3dd;
 }
+@media (min-width: $desktop-width) {
+
+  }
