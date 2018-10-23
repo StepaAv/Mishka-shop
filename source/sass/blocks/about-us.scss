@@ -45,15 +45,18 @@
   font-weight: bold;
 }
 @media (min-width: $tablet-width) {
+    .about-us {
+  min-height: 600px;
+margin-top: 0;
+}
+
   .about-us__title {
   margin: 0;
   padding-top: 45px;
   padding-left: 0;
 }
 
-  .about-us {
-  min-height: 600px;
-}
+
   .about-us__list {
     display: flex;
     flex-direction: row;
@@ -128,6 +131,15 @@
 }
 
 @media (min-width: $desktop-width) {
+    .about-us {
+  min-height: 600px;
+  margin-top: 81px;
+      padding-left: 175px;
+  padding-right: 175px;
+
+}
+
+
 .about-us__title {
   font-size: 53px;
   line-height: 57px;

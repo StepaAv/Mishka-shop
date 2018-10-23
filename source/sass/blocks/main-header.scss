@@ -26,6 +26,13 @@
     z-index: 30;
     margin-left: auto;
   }
+  .main-header__sales {
+  display: none;
+}
+
+.main-header__new-stuff {
+  display: none;
+}
 }
 
 @media (min-width: $desktop-width) {
@@ -48,6 +55,30 @@
 
   .main-header__addons {
     display: flex;
-    justify-content: space-around;
+    // width: 1050px;
+    min-height: 52px;
+    padding-top: 14px;
   }
+  .main-header__sales {
+  display: block;
+  position: relative;
+  z-index: 10000;
+  width: 175px;
+  padding-left: 42px;
+}
+
+.main-header__new-stuff {
+  display: block;
+   position: relative;
+  z-index: 10000;
+  width: 175px;
+}
+.main-header__delivery {
+  width: 234px;
+  margin-top: 0;
+  margin-left: 413px;
+  padding-right: 0;
+  padding-left: 56px;
+  white-space: nowrap;
+}
 }

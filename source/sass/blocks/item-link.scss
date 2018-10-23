@@ -70,9 +70,15 @@
   }
 }
 @media (min-width: $desktop-width) {
+.item-link {
+  margin-top: 0;
+}
+
 .item-link__title {
       font-size: 20px;
   line-height: 30px;
   font-weight: bold;
+  width: 525px;
+  height: 119px;
   }
   }

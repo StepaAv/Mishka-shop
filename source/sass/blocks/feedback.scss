@@ -122,14 +122,46 @@
  }
 }
 @media (min-width: $desktop-width) {
+.feedback {
+  padding-left: 175px;
+  &:before {
+  left: -1px;
+  top: 7px;
+    }
+}
 .feedback__title {
   font-size: 53px;
   line-height: 57px;
   font-weight: bold;
+  margin-top: 78px;
+  padding-top: 0;
  }
 .feedback__author {
   font-size: 17px;
   line-height: 24px;
   font-weight: bold;
+  padding-top: 0;
+ }
+ .feedback__author-wrap {
+  position: relative;
+  top: -33px;
+ }
+ .feedback__text {
+  display: block;
+  width: 800px;
+  padding-top: 0;
+  position: relative;
+  top: -5px;
+  min-height: 109px;
+ }
+ .feedback__write-btn {
+  margin-top: 82px;
+  margin-left: 474px;
+ }
+ .feedback__slider-list  {
+  margin: 0;
+  padding: 0;
+  padding-left: 467px;
+  margin-top: -30px;
  }
   }

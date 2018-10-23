@@ -56,7 +56,7 @@
     line-height: 50px;
     font-weight: bold;
     width: 668px;
-    padding-top: 110px;
+    padding-top: 100px;
     & span {
     display: block;
     margin: 0 auto;
@@ -76,10 +76,26 @@
   }
 }
 @media (min-width: $desktop-width) {
+.subject {
+  height: 563px;
+}
 .subject__title {
+  margin: 0 auto;
     font-size: 53px;
     line-height: 57px;
     font-weight: bold;
     width: 700px;
+    padding-top: 90px;
+    & span {
+      &:nth-of-type(3) {
+        width: 501px;
+      }
+    }
+  }
+    .subject__img {
+    width: 1150px;
+    height: 746px;
+    margin-left: -50px;
+    margin-top: -270px;
   }
   }

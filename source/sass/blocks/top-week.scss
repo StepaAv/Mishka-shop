@@ -147,14 +147,37 @@
   }
 }
 @media (min-width: $desktop-width) {
+.top-week {
+  margin-top: 79px;
+  min-height: 628px;
+}
+.top-week__list {
+  padding-top: 55px;
+}
 .top-week__product {
       font-size: 53px;
   line-height: 57px;
+  order: 2;
+  margin-left: 25px;
   }
 .top-week__title {
+  margin: 0;
+  padding: 0;
       font-size: 17px;
   line-height: 17px;
   font-weight: bold;
+  order: 1;
+  margin-top: 56px;
+  }
+  .top-week__title-wrap {
+    margin-left: 50px;
+  }
+  .top-week__tablet-wrap {
+    margin-left: 175px;
+  }
+  .top-week__price-wrap {
+    margin-left: 175px;
+    margin-top: 58px;
   }
   .top-week__text {
       font-size: 17px;
@@ -172,5 +195,14 @@
       font-size: 20px;
   line-height: 24px;
   font-weight: bold;
+  }
+  .top-week__img {
+    width: 525px;
+    height: 638px;
+    margin-top: -152px;
+    margin-left: 15px;
+    position: relative;
+    z-index: -1;
+    overflow: visible;
   }
   }
