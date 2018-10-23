@@ -23,8 +23,11 @@
     padding-right: 50px;
     // padding-bottom: 20px;
     position: relative;
-    z-index: 30;
+    z-index: 31;
     margin-left: auto;
+    &--catcolor {
+      background-color: #f1f1f1;
+    }
   }
   .main-header__sales {
   display: none;

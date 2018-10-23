@@ -5,9 +5,26 @@
 .shop__item {
   margin-bottom: 30px;
 }
-// @media (min-width: $tablet-width) {
-//  blabla
-// }
+@media (min-width: $tablet-width) {
+ .shop {
+  margin-top: 84px;
+ }
+ .shop__list {
+  margin: 0;
+ }
+ .shop__item {
+  margin: 0;
+  margin-bottom: 51px;
+ }
+}
 @media (min-width: $desktop-width) {
-
+.shop {
+  margin-top: 124px;
+  min-height: 709px;
+ }
+.shop__list {
+  display: flex;
+  flex-wrap: wrap;
+    justify-content: space-between;
   }
+}

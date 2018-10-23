@@ -283,29 +283,7 @@
   width: 250px;
   padding: 0;
 }
-// .form__item--color {
-//   &:before {
-//     content: "";
-//     background-color: #f1f1f1;
-//     width: 100vw;
-//     height: 404px;
-//     position: absolute;
-//     overflow: visible;
-//     // left: -100px;
-//     // margin-left: -100px;
-//   }
-// }
-//   .form__item--contacts {
-//     &:before {
-//     content: "";
-//     background-color: #f1f1f1;
-//     width: 1000000000px;
-//     height: 404px;
-//     position: absolute;
-//     overflow: visible;
-//     left: -1000000px;
-//   }
-// }
+
 
 .form__names-list {
   display: flex;
@@ -348,6 +326,17 @@
   display: flex;
   flex-direction: row-reverse;
 }
+.form__item--type {
+  min-height: 191px;
+  margin-top: 53px;
+}
+.form__type-list {
+  padding-left: 79px;
+}
+.form__type-item {
+  margin-bottom: 34px;
+}
+
 }
 @media (min-width: $desktop-width) {
 .form__text {

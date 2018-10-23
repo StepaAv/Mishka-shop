@@ -145,6 +145,9 @@
     margin-top: -80px;
     position: relative;
     z-index: 10;
+    &--catcolor {
+      background-color: #f1f1f1;
+    }
   }
 
 
@@ -215,6 +218,10 @@
     & .main-nav__span-search {
       left: 200px;
     }
+  }
+
+  .main-nav .main-nav__item--catcolor {
+    background-color: #f1f1f1;
   }
 }
 
