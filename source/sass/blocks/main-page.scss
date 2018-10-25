@@ -158,18 +158,23 @@
         z-index: 6000;
       }
   }
-  // .main-page__precontainer--grey-wave {
-  //   position: relative;
-  //         &:after {
-  //       content: "";
-  //       background-image: url(../img/bg-zigzag-line.svg);
-  //       background-repeat: repeat-x;
-  //       width: 1050px;
-  //       height: 25px;
-  //       margin: 0 auto;
-  //       position: absolute;
-  //       bottom: 0;
-  //       z-index: 6000;
-  //     }
-  // }
+  .main-page--form {
+    position: relative;
+    &:before {
+      content: "";
+      width: 100vw;
+      height: 63px;
+      background-color: #f1f1f1;
+      position: absolute;
+      z-index: 30;
+      top: -60px;
+      border-top: 1px solid #e7e7e7;
+    }
+  }
+  .main-page__text--form {
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 122px;
+
+  }
   }

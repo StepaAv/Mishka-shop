@@ -12,7 +12,24 @@
   font-size: 17px;
   line-height: 30px;
 }
+.order-form__obligatorily {
+  padding-top: 20px;
+}
+.order-form__submit {
+  display: block;
+  margin-right: 135px;
+  width: 230px;
+  margin-bottom: 49px;
+}
 }
 @media (min-width: $desktop-width) {
-
+.order-form__submit {
+  margin-top: 24px;
+  margin-right: 170px;
+  margin-bottom: 47px;
   }
+  .order-form__obligatorily {
+    padding-right: 171px;
+    padding-top: 15px;
+  }
+}
