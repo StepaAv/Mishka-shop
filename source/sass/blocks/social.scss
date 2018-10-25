@@ -1,5 +1,21 @@
+.social {
+  width: 180px;
+  height: 80px;
+  border-bottom: 1px solid #e5e5e5;
+}
 .social__list {
   @include list-reset;
   display: flex;
   justify-content: space-around;
 }
+.social__logo {
+  &:hover>svg {
+    fill: #46c1ae;
+  }
+  &:active>svg {
+    fill: #bde3dd;
+  }
+}
+@media (min-width: $desktop-width) {
+
+  }

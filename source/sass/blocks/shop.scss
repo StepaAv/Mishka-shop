@@ -1,27 +1,30 @@
 .shop__list {
   @include list-reset;
+  margin-top: 30px;
 }
-.shop__title {
-  @include link-reset;
-  font-size: 17px;
-  line-height: 24px;
-  font-weight: bold;
+.shop__item {
+  margin-bottom: 30px;
 }
-.shop__buy-basket {
-  @include button-reset;
+@media (min-width: $tablet-width) {
+ .shop {
+  margin-top: 84px;
+ }
+ .shop__list {
+  margin: 0;
+ }
+ .shop__item {
+  margin: 0;
+  margin-bottom: 51px;
+ }
 }
-.shop__description {
-  font-size: 13px;
-  line-height: 30px;
-  color: #444444;
-}
-.shop__price {
-  font-size: 15px;
-  line-height: 24px;
-  font-weight: bold;
-}
-.shop__buy-basket {
-  & svg {
-    fill: #cccccc;
+@media (min-width: $desktop-width) {
+.shop {
+  margin-top: 124px;
+  min-height: 709px;
+ }
+.shop__list {
+  display: flex;
+  flex-wrap: wrap;
+    justify-content: space-between;
   }
 }

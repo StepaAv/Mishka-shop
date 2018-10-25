@@ -1,32 +1,84 @@
+
 .item-link__title {
   @include link-reset;
   display: block;
-  min-height: 104px;
+  min-height: 103px;
   color: #ffffff;
   font-size: 19px;
   line-height: 24px;
   font-weight: bold;
+  position: relative;
+  z-index: 100;
     & p {
       margin: 0;
       width: 130px;
       display: inline-block;
       vertical-align: middle;
       padding-left: 30px;
+      padding-top: 5px;
     }
     &--light {
       background-color: #63d1bb;
+      &:hover {
+        background-color: #59d5bc;
+      }
     }
     &--lego {
       background-color: #56c3b2;
+      &:hover {
+        background-color: #46c1ae;
+      }
     }
     & svg {
       fill: #35a999;
     }
+    &:hover {
+      min-height: 108px;
+      margin-top: -5px;
+    }
+}
+.item-link__title--light:active>.item-link__icon svg {
+  fill: #44c0aa;
+}
+
+.item-link__title--lego:active>.item-link__icon svg {
+  fill: #37b2a0;
 }
 
 .item-link__icon {
   display: inline-block;
   vertical-align: middle;
   margin-top: 20px;
-  margin-left: 100px;
+  margin-left: 109px;
 }
+
+@media (min-width: $tablet-width) {
+  .item-link {
+    display: flex;
+
+  }
+  .item-link__title {
+    width: 334px;
+    min-height: 120px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  & p {
+      padding-left: 34px;
+      padding-top: 19px;
+  }
+  }
+}
+@media (min-width: $desktop-width) {
+.item-link {
+  margin-top: 0;
+}
+
+.item-link__title {
+      font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  width: 525px;
+  height: 119px;
+  }
+  }
