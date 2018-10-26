@@ -50,9 +50,9 @@
           <h1 class="subject__title"><span>Милые штуки</span><span>ручной</span> <span>работы для дома</span></h1>
           <div class="subject__img-wrap">
             <picture>
-              <source media="(min-width: 1200px)" srcset="img/hero-desktop@1x.jpg">
-              <source media="(min-width: 768px)" srcset="img/hero-tablet@1x.jpg">
-              <img class="subject__img" src="img/hero-mobile@1x.jpg" width="575" height="353" alt="">
+              <source media="(min-width: 1150px)" srcset="img/hero-desktop@1x.jpg 1x, img/hero-desktop@2x.jpg 2x">
+              <source media="(min-width: 768px)" srcset="img/hero-tablet@1x.jpg 1x, img/hero-tablet@2x.jpg 2x">
+              <img class="subject__img" src="img/hero-mobile@1x.jpg" srcset="img/hero-mobile@2x.jpg 2x" width="575" height="353" alt="">
                   </picture>
           </div>
         </div>
@@ -98,7 +98,11 @@
             </ul>
           </div>
           <div class="top-week__img-wrap">
-            <img src="img/triple-set-mobile@1x.jpg" width="260" height="315" alt="" class="top-week__img">
+            <picture>
+              <source media="(min-width: 1150px)" srcset="img/triple-set-desktop@1x.jpg 1x, img/triple-set-desktop@2x.jpg 2x">
+              <source media="(min-width: 768px)" srcset="img/triple-set-tablet@1x.jpg 1x, img/triple-set-tablet@2x.jpg 2x">
+              <img src="img/triple-set-mobile@1x.jpg" srcset="img/triple-set-mobile@2x.jpg" width="260" height="315" alt="" class="top-week__img">
+                  </picture>
           </div>
           </div>
           <div class="top-week__price-wrap">
@@ -215,9 +219,9 @@
         </ul>
         <div class="contacts__map-wrap">
           <picture>
-            <source media="(min-width: 1200px)" srcset="img/map-desktop@1x.jpg">
-            <source media="(min-width: 768px)" srcset="img/map-tablet@1x.jpg">
-            <img class="contacts__map" src="img/map-mobile@1x.jpg" width="322" height="457" alt="">
+            <source media="(min-width: 1150px)" srcset="img/map-desktop@1x.jpg 1x, img/map-desktop@2x.jpg">
+            <source media="(min-width: 768px)" srcset="img/map-tablet@1x.jpg 1x, img/map-tablet@2x.jpg 2x">
+            <img class="contacts__map" src="img/map-mobile@1x.jpg" srcset="img/map-mobile@2x.jpg 2x" width="322" height="457" alt="">
           </picture>
         </div>
         <button class="button contacts__btn">Напишите нам</button>

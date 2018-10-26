@@ -72,6 +72,9 @@
   z-index: 10;
   left: -50px;
   top: 0;
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/review@2x.jpg");
+    }
     }
  }
  .feedback__title {
