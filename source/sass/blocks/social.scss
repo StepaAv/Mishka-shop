@@ -16,6 +16,11 @@
     fill: #bde3dd;
   }
 }
+@media (min-width: $tablet-width) {
+.social {
+border-bottom: none;
+}
+  }
 @media (min-width: $desktop-width) {
 
   }
