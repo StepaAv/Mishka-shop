@@ -1,13 +1,14 @@
 *:focus {
   outline: 1px solid #62d1ba;
 }
+
 body {
   font-family: $font;
   color: $base-color;
   background-color: $background;
   text-align: left;
-overflow-y:visible;  /*для вертикального*/
-overflow-x:hidden;  /*для горизонтального*/
+  overflow-y: visible;
+  overflow-x: hidden;
 }
 
 .visually-hidden {
@@ -22,13 +23,11 @@ overflow-x:hidden;  /*для горизонтального*/
 }
 
 html {
-   box-sizing: border-box;
- }
+  box-sizing: border-box;
+}
 
- *,
- *::before,
- *::after {
-   box-sizing: inherit;
- }
-
-
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}

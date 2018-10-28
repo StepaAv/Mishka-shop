@@ -3,92 +3,111 @@
   margin-left: auto;
   margin-right: auto;
   padding: 0 30px;
+
   // outline: 1px solid grey;
-    &--subject,
-    &--header-mobile,
-    &--nopad,
-    &--footer {
-      padding: 0;
-    }
-    &--nowidth {
-      width: 100vw;
-    }
-    &--manufacture {
-      margin-bottom: 55px;
-    }
+  &--subject,
+  &--header-mobile,
+  &--nopad,
+  &--footer {
+    padding: 0;
+  }
+
+  &--nowidth {
+    width: 100vw;
+  }
+
+  &--manufacture {
+    margin-bottom: 55px;
+  }
 }
+
 @media (min-width: $tablet-width) {
   .container {
     width: $tablet-width;
     margin: 0 auto;
     padding: 0 50px;
+
     &--header-mobile {
       padding: 0;
     }
+
     &--subject {
       background-color: #f9f9f9;
     }
+
     &--footer,
     &--nopad {
       padding: 0;
       background-color: #f1f1f1;
     }
+
     &--nowidth {
       width: 100vw;
-  }
+    }
+
     &--maxwidth {
       width: 100vw;
     }
+
     &--colored {
       background-color: #f1f1f1;
     }
+  }
 }
-}
+
 @media (min-width: $desktop-width) {
-.container {
+  .container {
     width: $desktop-width;
     margin: 0 auto;
     padding: 0 50px;
+
     &--nowidth {
       width: 100vw;
-  }
+    }
+
     &--maxwidth {
       width: 100vw;
     }
+
     &--colored {
       background-color: #f1f1f1;
     }
-}
-.container--grey-wave {
-    position: relative;
-          &:after {
-        content: "";
-        background-image: url(../img/bg-zigzag-line.svg);
-        background-repeat: repeat-x;
-        width: 1050px;
-        height: 25px;
-        margin: 0 auto;
-        position: absolute;
-        bottom: -72px;
-        z-index: 6000;
-        overflow: visible;
-      }
+    &--wtf {
+      height: 229px;
+    }
   }
 
-.container--grey-second {
+  .container--grey-wave {
     position: relative;
-          &:after {
-        content: "";
-        background-image: url(../img/bg-zigzag-line.svg);
-        background-repeat: repeat-x;
-        width: 1050px;
-        height: 25px;
-        margin: 0 auto;
-        position: absolute;
-        bottom: -95px;
-        z-index: 6000;
-        overflow: visible;
-      }
+
+    &:after {
+      content: "";
+      background-image: url(../img/bg-zigzag-line.svg);
+      background-repeat: repeat-x;
+      width: 1050px;
+      height: 25px;
+      margin: 0 auto;
+      position: absolute;
+      bottom: -72px;
+      z-index: 6000;
+      overflow: visible;
+    }
+  }
+
+  .container--grey-second {
+    position: relative;
+
+    &:after {
+      content: "";
+      background-image: url(../img/bg-zigzag-line.svg);
+      background-repeat: repeat-x;
+      width: 1050px;
+      height: 25px;
+      margin: 0 auto;
+      position: absolute;
+      bottom: -95px;
+      z-index: 6000;
+      overflow: visible;
+    }
   }
 }
-

@@ -17,7 +17,6 @@
 .main-nav__item {
   min-height: 79px;
   padding-left: 80px;
-  ;
   display: flex;
   align-items: center;
   border-bottom: 1px solid #ececec;
@@ -34,57 +33,14 @@
   display: block;
   padding-top: 9px;
   padding-left: 6px;
+
   &:hover {
     opacity: 0.7;
   }
+
   &:active {
     opacity: 0.4;
   }
-}
-
-.main-nav__menu {
-  position: relative;
-}
-
-.main-nav__menu-close:before {
-  content: "";
-  background-image: url(../img/icon-menu-close.svg);
-  background-repeat: no-repeat;
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  top: -50px;
-  right: 0px;
-  cursor: pointer;
-}
-
-.main-nav__menu-hamburger:before {
-  content: "";
-  background-image: url(../img/icon-menu-open.svg);
-  background-repeat: no-repeat;
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  top: -50px;
-  right: 0px;
-  cursor: pointer;
-  display: none;
-}
-
-.main-nav__menu-checkbox:checked~.main-nav__list {
-  display: none;
-}
-
-.main-nav__menu-checkbox:checked~.main-nav__menu-close:before {
-  display: none;
-}
-
-.main-nav__menu-checkbox:checked~.main-nav__menu-hamburger:before {
-  display: block;
-}
-
-.main-nav__menu-checkbox {
-  display: none;
 }
 
 .main-nav__link {
@@ -145,22 +101,27 @@
     margin-top: -80px;
     position: relative;
     z-index: 10;
+
     &--catcolor {
       background-color: #f1f1f1;
     }
   }
 
 
-   .main-nav__link {
-  font-size: 15px;
-  line-height: 24px;
-  &--bolder {
-  font-size: 17px;
+  .main-nav__link {
+    font-size: 15px;
+    line-height: 24px;
+
+    &--bolder {
+      font-size: 17px;
+    }
   }
-}
- .main-nav__link--search {
+
+  .main-nav__link--search {
     font-size: 0;
+    padding-left: 10px;
   }
+
   .main-nav__item {
     padding: 0;
     border-bottom: none;
@@ -171,13 +132,12 @@
       padding-bottom: 20px;
       width: 217px;
       background-color: #f9f9f9;
-      // border-left: none;
     }
 
     &:nth-of-type(2) {
       order: 4;
       width: 167px;
-            padding-bottom: 20px;
+      padding-bottom: 20px;
       background-color: #f9f9f9;
     }
 
@@ -190,6 +150,7 @@
       background-color: #ffffff;
       position: relative;
       border-left: none;
+
       &:before {
         content: "";
         height: 88px;
@@ -213,8 +174,9 @@
 
   .main-nav__link {
     & span {
-      left: -40px;
+      left: -51px;
     }
+
     & .main-nav__span-search {
       left: 200px;
     }
@@ -231,19 +193,22 @@
     margin-top: 0;
     min-height: 88px;
   }
+
   .main-nav__menu {
     width: 1050px;
   }
+
   .main-nav__list {
     margin-top: -87px;
     width: 1050px;
     border-bottom: 1px solid #e7e7e7;
-    // outline: 1px solid red;
   }
-.main-nav__item {
-  border: none;
-  padding-top: 10px;
-  min-height: 88px;
+
+  .main-nav__item {
+    border: none;
+    padding-top: 10px;
+    min-height: 88px;
+
     &:nth-of-type(1) {
       order: 1;
       width: 185px;
@@ -265,10 +230,14 @@
       order: 3;
       width: 84px;
       height: 89px;
-      border: 1px solid #ececec;
+      border: none;
+      border-left: 1px solid #ececec;
+      border-right: 1px solid #ececec;
+      padding-top: 0;
       padding-left: 0;
       background-color: #ffffff;
       position: relative;
+
       &:before {
         content: "";
         height: 89px;
@@ -286,26 +255,31 @@
       height: 89px;
       padding-left: 81px;
       background-color: #ffffff;
-      border-bottom: 1px solid #ececec;
+      border-bottom: none;
       padding-top: 0;
     }
   }
 
   .main-nav__link {
-  font-size: 17px;
-  line-height: 24px;
-  font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: bold;
+
     & span {
-      left: -40px;
+      left: -51px;
     }
+
     & .main-nav__span-search {
-      left: 0px;
+      left: 31px;
+      top: 0px;
     }
   }
-   .main-nav__link--search {
+
+  .main-nav__link--search {
     font-size: 0;
   }
-   .main-nav__logo-wrap {
+
+  .main-nav__logo-wrap {
     padding: 0;
     position: relative;
     z-index: 20;
@@ -314,6 +288,7 @@
     height: 88px;
     margin-left: 448px;
   }
+
   .main-nav__logo {
     width: 150px;
     height: 88px;

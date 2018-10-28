@@ -45,6 +45,7 @@
     "node": "8.12"
   },
   "dependencies": {
+    "gulp-uglify": "^3.0.1",
     "npx": "^10.2.0"
   }
 }

@@ -2,6 +2,7 @@
   min-height: 79px;
   width: 260px;
 }
+
 .developed__title {
   @include link-reset;
   display: block;
@@ -11,22 +12,55 @@
   font-weight: bold;
   color: #444444;
   cursor: pointer;
+  position: relative;
+  padding-top: 28px;
+  padding-left: 31px;
+
+  & span {
+    position: absolute;
+    top: 18px;
+    right: 39px;
+  }
+
   &:active {
     color: #bfbfbf;
   }
+
   & svg {
     fill: #63d1bb;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
   }
 }
 
 .developed__title:hover>span svg {
   fill: #46c1ae;
 }
+
 .developed__title:active>span svg {
   fill: #bde3dd;
 }
-@media (min-width: $desktop-width) {
 
+@media (min-width: $tablet-width) {
+  .developed__title {
+    padding-top: 32px;
+    padding-left: 19px;
+
+    & span {
+      top: 22px;
+      right: 48px;
+    }
   }
+
+}
+
+@media (min-width: $desktop-width) {
+  .developed__title {
+
+    & span {
+      top: 25px;
+      right: 28px;
+    }
+  }
+
+}
