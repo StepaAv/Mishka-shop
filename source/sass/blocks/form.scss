@@ -23,6 +23,17 @@
   color: #63d1bb;
   padding-right: 23px;
   white-space: nowrap;
+  position: relative;
+   &:after {
+    content: "";
+  width: 220px;
+  height: 2px;
+  margin-top: 7px;
+  left: 52px;
+  background-color: #62d1ba;
+  position: absolute;
+  overflow: hidden;
+   }
 }
 
 .form__text {
@@ -62,6 +73,7 @@
   border-bottom: 2px solid #000000;
   padding-top: 15px;
   padding-bottom: 15px;
+  outline: none;
 
   &:hover {
     border-bottom: 2px solid #62d1ba;
@@ -92,6 +104,7 @@
   height: 2px;
   margin-top: 25px;
   background-color: #62d1ba;
+  display: none;
 }
 
 .form__legend-wrap {
@@ -99,7 +112,7 @@
   margin-top: 6px;
 
   &--names {
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   &--contacts {
@@ -118,6 +131,7 @@
 
 .form__input--contacts {
   padding-top: 8px;
+  outline: none;
 }
 
 .form__radio {
@@ -152,17 +166,6 @@
 .form__text--radio:hover {
   &:before {
     border: 2px solid #62d1ba;
-  }
-
-  &:after {
-    content: "";
-    width: 17px;
-    height: 17px;
-    background-color: #62d1ba;
-    border-radius: 50%;
-    position: absolute;
-    left: -49px;
-    top: 25px;
   }
 }
 
@@ -213,17 +216,6 @@
   &--checkbox:hover:before {
     content: "";
     border: 2px solid #62d1ba;
-  }
-
-  &--checkbox:hover:after {
-    content: "";
-    background-image: url(../img/icon-tick.svg);
-    background-repeat: no-repeat;
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    left: -52px;
-    top: -5px;
   }
 }
 
@@ -277,8 +269,10 @@
     font-size: 17px;
     line-height: 16px;
     font-weight: bold;
+    &:after {
+   display: none;
   }
-
+}
   .form__text {
     font-size: 19px;
     line-height: 18px;
@@ -290,6 +284,7 @@
   }
 
   .form__input {
+    outline: none;
     &::placeholder {
       font-size: 19px;
       line-height: 18px;
