@@ -9,7 +9,7 @@
   position: relative;
   z-index: 100;
 
-  & p {
+  p {
     margin: 0;
     width: 130px;
     display: inline-block;
@@ -34,7 +34,7 @@
     }
   }
 
-  & svg {
+  svg {
     fill: #35a999;
   }
 
@@ -58,7 +58,7 @@
   margin-top: 20px;
   margin-left: 109px;
 
-  & svg {
+  svg {
     width: 60px;
     height: 60px;
   }
@@ -81,7 +81,7 @@
     line-height: 30px;
     font-weight: bold;
 
-    & p {
+     p {
       padding-left: 34px;
       padding-top: 19px;
     }
@@ -103,7 +103,7 @@
     font-weight: bold;
     width: 525px;
     height: 119px;
-    & p {
+     p {
       padding-top: 29px;
     }
   }

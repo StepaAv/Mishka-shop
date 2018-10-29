@@ -19,7 +19,6 @@
   border-bottom: 1px solid #ededed;
   margin: 0 auto;
   padding-top: 27px;
-  // padding-bottom: 26px;
 }
 
 .item-card__price-wrap {
@@ -81,7 +80,7 @@
   display: block;
   padding-top: 20px;
 
-  & svg {
+  svg {
     fill: #cccccc;
   }
 }
@@ -169,7 +168,7 @@
   }
 
   .item-card__title {
-    & span {
+    span {
       display: block;
       width: 155px;
     }
