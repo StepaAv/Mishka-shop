@@ -49,7 +49,7 @@ gulp.task("webp", function() {
 
 gulp.task("sprite", function() {
   // ukazana direktroija failov
-  return gulp.src("source/img/icon-feature-*.svg")
+  return gulp.src("source/img/icon-*.svg")
     .pipe(svgstore({
       inlineSvg: true
     }))

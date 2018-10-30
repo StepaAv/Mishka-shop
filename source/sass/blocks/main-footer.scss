@@ -25,6 +25,16 @@
   .main-footer__logo {
     margin-top: 50px;
     margin-left: 42px;
+    &:hover {
+      svg {
+        fill: #46c1ae;
+      }
+    }
+    &:active {
+      svg {
+        fill: #bde3dd;
+      }
+    }
   }
 
   .main-footer__social {

@@ -66,6 +66,9 @@
   width: 190px;
   margin-left: 33px;
   margin-bottom: 35px;
+   svg {
+    fill: #62d1ba;
+   }
 }
 
 @media (min-width: $tablet-width) {
@@ -121,7 +124,7 @@
     left: 43%;
 
    svg {
-    fill: #63d1bb;
+    fill: #62d1ba;
   }
 
   &:hover svg {
@@ -181,7 +184,7 @@
     left: 39%;
 
     svg {
-    fill: #63d1bb;
+    fill: #62d1ba;
   }
 
   &:hover svg {
