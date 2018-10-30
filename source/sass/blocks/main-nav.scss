@@ -76,7 +76,11 @@
 @media (min-width: $tablet-width) {
 
   .main-nav__logo {
-    width: 113px;
+    width: 116px;
+    height: 44px;
+    margin: 18px;
+    margin-left: 2px;
+    padding: 0;
   }
 
   .main-nav__logo-wrap {
@@ -175,10 +179,11 @@
   .main-nav__link {
      span {
       left: -51px;
+      top: 3px;
     }
 
     & .main-nav__span-search {
-      left: 200px;
+      left: 202px;
     }
   }
 
@@ -193,7 +198,6 @@
     margin-top: 0;
     min-height: 88px;
   }
-
   .main-nav__menu {
     width: 1050px;
   }
@@ -290,9 +294,13 @@
   }
 
   .main-nav__logo {
-    width: 150px;
-    height: 88px;
-    padding-top: 0;
+    margin: 0;
+      padding-top: 6px;
+      width: 149px;
+      height: 74px;
+    // width: 150px;
+    // height: 88px;
+    // padding-top: 0;
     padding-left: 0;
   }
 }

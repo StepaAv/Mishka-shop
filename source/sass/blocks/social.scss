@@ -1,14 +1,20 @@
 .social {
   width: 208px;
   height: 80px;
-  border-bottom: 1px solid #e5e5e5;
 }
 
 .social__list {
   @include list-reset;
   display: flex;
   justify-content: space-around;
-  width: 190px;
+  width: 183px;
+  padding-right: 2px;
+  .social__item:nth-of-type(1) {
+    padding-top: 7px;
+  }
+  .social__item:nth-of-type(3) {
+    padding-top: 6px;
+  }
 }
 
 .social__logo {
@@ -22,7 +28,5 @@
 }
 
 @media (min-width: $tablet-width) {
-  .social {
-    border-bottom: none;
-  }
+
 }

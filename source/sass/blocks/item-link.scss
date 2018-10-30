@@ -72,8 +72,12 @@
   .item-link__icon {
   margin-top: 26px;
   margin-left: 118px;
-
 }
+.item-link__icon--toy {
+  margin-top: 29px;
+  margin-left: 111px;
+}
+
   .item-link__title {
     width: 334px;
     min-height: 120px;
@@ -93,10 +97,20 @@
     margin-top: 0;
   }
 .item-link__icon {
-  margin-top: 23px;
-  margin-left: 303px;
+margin: 0;
+}
+.item-link__icon--toy {
+  margin-top: 0;
+  padding-top: 33px;
+  margin-left: 300px;
 
 }
+.item-link__icon--light {
+  margin-top: 0;
+  padding-top: 31px;
+  margin-left: 307px;
+}
+
   .item-link__title {
     font-size: 20px;
     line-height: 30px;
@@ -104,7 +118,7 @@
     width: 525px;
     height: 119px;
      p {
-      padding-top: 29px;
+      padding-top: 21px;
     }
   }
 }
