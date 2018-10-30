@@ -1,5 +1,6 @@
 .feedback {
   margin-top: 4px;
+  outline: none;
 }
 .feedback__slider-list {
   @include list-reset
@@ -98,7 +99,7 @@
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    min-height: 460px;
+    height: 460px;
     margin-top: 0;
 
     &:before {
@@ -175,12 +176,14 @@
   }
   .feedback__slider-item {
     border: none;
+    width: 83px;
   }
   .feedback__slider-item--left {
-    padding-left: 52px;
+    // width: 83px;
+    // padding-left: 52px;
   }
   .feedback__slider-item--right {
-    padding-left: 8px;
+    // padding-left: 8px;
   }
 }
 

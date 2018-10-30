@@ -13,8 +13,11 @@
 .form__type-list {
   @include list-reset;
 }
-
+.form__legend-wrap {
+  outline: none;
+}
 .form__legend {
+  outline: none;
   margin-top: 16px;
   font-size: 17px;
   line-height: 16px;
@@ -34,6 +37,22 @@
   position: absolute;
   overflow: hidden;
    }
+   &--names:after {
+    width: 201px;
+    left: 61px;
+   }
+   &--tel:after {
+    width: 199px;
+    left: 62px;
+   }
+   &--mail:after {
+    width: 181px;
+    left: 79px;
+   }
+   &--aditional:after {
+    width: 198px;
+    left: 62px;
+   }
 }
 
 .form__text {
@@ -44,22 +63,27 @@
 
 .form__item--type {
   min-heigh: 173px;
+  outline: none;
 }
 
 .form__item--color {
   min-height: 417px;
+  outline: none;
 }
 
 .form__item--names {
   min-height: 330px;
+  outline: none;
 }
 
 .form__item--contacts {
   min-height: 213px;
+  outline: none;
 }
 
 .fomr__item--textarea {
   min-height: 188px;
+  outline: none;
 }
 
 .form__color-item {
@@ -126,8 +150,9 @@
   &--textarea {
     margin-top: 0;
     margin-bottom: 10px;
+    }
   }
-}
+
 
 .form__input--contacts {
   padding-top: 8px;
@@ -223,7 +248,7 @@
   content: "";
   background-image: url(../img/icon-tick.svg);
   background-repeat: no-repeat;
-  width: 25px;
+  width: 33px;
   height: 25px;
   position: absolute;
   left: -52px;
@@ -250,12 +275,16 @@
     font-size: 17px;
     font-weight: 18px;
   }
+  .form__submit-wrap {
+    outline: none
+  }
 }
 
 @media (min-width: $tablet-width) {
   .form__item {
     display: flex;
     position: relative;
+    outline: none;
   }
 .form__item--color {
   height: 306px;
@@ -446,7 +475,7 @@ padding-left: 0;
   }
 
   .form__checkbox:checked~.form__text:after {
-    width: 25px;
+    width: 33px;
     height: 30px;
     left: 13px;
     top: -1px;
@@ -508,6 +537,16 @@ padding-left: 0;
   .form__textarea {
     margin-top: 50px;
     margin-bottom: 27px;
+    padding: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    &::placeholder {
+      padding: 0;
+      width: 350px;
+    }
+  }
+  .form__submit-wrap {
+    outline: none
   }
 }
 
@@ -567,5 +606,8 @@ padding-left: 0;
 
   .form__input--contacts {
     width: 710px;
+  }
+  .form__submit-wrap {
+    outline: none
   }
 }

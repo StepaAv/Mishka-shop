@@ -11,7 +11,7 @@
 <body>
 
     <div class="container container--header-mobile">
-        <header class="main-header main-header--catalog">
+        <header class="main-header main-header--form">
             <nav class="main-nav">
                 <div class="main-nav__logo-wrap">
                     <a href="index.html" class="main-nav__logo main-nav__logo--mobile">
@@ -23,9 +23,9 @@
                     </a>
                 </div>
                 <div class="main-nav__menu">
-                    <ul class="main-nav__list">
-                        <li class="main-nav__item"><a href="catalog.html" class="main-nav__link">Каталог товаров</a></li>
-                        <li class="main-nav__item"><a href="#" class="main-nav__link">Вязание на заказ</a></li>
+                    <ul class="main-nav__list main-nav__list--catcolor">
+                        <li class="main-nav__item main-nav__item--catcolor"><a href="catalog.html" class="main-nav__link">Каталог товаров</a></li>
+                        <li class="main-nav__item main-nav__item--catcolor"><a href="#" class="main-nav__link">Вязание на заказ</a></li>
                         <li class="main-nav__item"><a href="#" class="main-nav__link main-nav__link--search"><span class="main-nav__span-search"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.6px" height="17.6px" viewBox="-0.8 -0.8 17.6 17.6" enable-background="new -0.8 -0.8 17.6 17.6" xml:space="preserve">
   <path d="M16.47,14.93l-3.415-3.415C14.02,10.226,14.6,8.634,14.6,6.899c0-4.253-3.447-7.699-7.7-7.699 S-0.8,2.646-0.8,6.899s3.446,7.7,7.699,7.7c1.734,0,3.326-0.58,4.613-1.546l3.417,3.416c0.203,0.202,0.418,0.33,0.771,0.33 c0.607,0,1.1-0.492,1.1-1.1C16.8,15.459,16.739,15.2,16.47,14.93z M1.399,6.899c0-3.038,2.462-5.5,5.5-5.5s5.5,2.462,5.5,5.5 s-2.462,5.5-5.5,5.5S1.399,9.938,1.399,6.899z"></path>
   </svg></span>Поиск по сайту</a></li>
@@ -56,7 +56,7 @@
                     <div class="form__item form__item--type">
                         <div class="form__legend-wrap">
                             <p class="form__legend">Тип</p>
-                            <span class="form__text-decor"></span>
+
                         </div>
                         <ul class="form__type-list">
                             <li class="form__type-item">
@@ -75,7 +75,7 @@
                         <div class="form__item form__item--color">
                             <div class="form__legend-wrap form__legend-wrap--color">
                                 <p class="form__legend form__legend--color">Цвет</p>
-                                <span class="form__text-decor"></span>
+
                             </div>
                             <ul class="form__color-list">
                                 <li class="form__color-item"><input type="checkbox" id="white" name="color" value="white" class="form__checkbox" checked=""><label for="white" class="form__text form__text--checkbox" tabindex="0">Белый</label></li>
@@ -92,7 +92,7 @@
                     <div class="form__item form__item--names">
                         <div class="form__legend-wrap form__legend-wrap--names">
                             <p class="form__legend form__legend--names">Фио</p>
-                            <span class="form__text-decor"></span>
+
                         </div>
                         <ul class="form__names-list">
                             <li class="form__names-item"><label for="name" class="form__text">Имя:</label><input type="text" id="name" name="name" class="form__input form__input--names" placeholder="Введите ваше имя*" required=""></li>
@@ -107,14 +107,14 @@
                             <div class="form__phone-mail form__phone-mail--phone">
                                 <div class="form__legend-wrap form__legend-wrap--contacts">
                                     <label for="telphone" class="form__legend form__legend--tel">Тел</label>
-                                    <span class="form__text-decor"></span>
+
                                 </div>
                                 <input id="telphone" type="tel" name="phone" class="form__input form__input--contacts form__input--tel" placeholder="+7 ХХХ ХХХ ХХ ХХ*" required="">
                             </div>
                             <div class="form__phone-mail form__phone-mail--mail">
                                 <div class="form__legend-wrap form__legend-wrap--email">
                                     <label for="emaill" class="form__legend form__legend--mail">E-mail</label>
-                                    <span class="form__text-decor"></span>
+
                                 </div>
                                 <input id="emaill" type="email" name="mail" class="form__input form__input--contacts form__input--mail" placeholder="Ваш Email*" required="">
                             </div>
@@ -125,7 +125,7 @@
                     <div class="form__item form__item--textarea">
                         <div class="form__legend-wrap form__legend-wrap--textarea">
                             <label for="textareaa" class="form__legend form__legend--aditional">Доп</label>
-                            <span class="form__text-decor"></span>
+
                         </div>
                         <textarea id="textareaa" name="opinion" class="form__textarea" placeholder="Опишите все ваши пожелания к заказу"></textarea>
                     </div>

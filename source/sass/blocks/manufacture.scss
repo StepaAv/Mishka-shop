@@ -51,24 +51,12 @@
     fill: #63d1bb;
   }
 
-  &:hover {
-    top: 27%;
-    left: 29%;
-  }
-
   &:hover svg {
-    width: 110px;
-    height: 90px;
-  }
-
-  &:active {
-    top: 22%;
-    left: 35%;
+    transform: scale(1.2);
   }
 
   &:active svg {
-    width: 80px;
-    height: 75px;
+    transform: scale(0.8);
     fill: #d0f1ea;
   }
 }
@@ -131,27 +119,19 @@
     top: 41%;
     left: 43%;
 
-    &:hover {
-      top: 42%;
-      left: 43%;
-    }
-
-    &:hover svg {
-      width: 110px;
-      height: 90px;
-    }
-
-    &:active {
-      top: 41%;
-      left: 45%;
-    }
-
-    &:active svg {
-      width: 80px;
-      height: 75px;
-      fill: #d0f1ea;
-    }
+   svg {
+    fill: #63d1bb;
   }
+
+  &:hover svg {
+    transform: scale(1.2);
+  }
+
+  &:active svg {
+    transform: scale(0.8);
+    fill: #d0f1ea;
+  }
+}
 }
 
 @media (min-width: $desktop-width) {
@@ -198,25 +178,17 @@
     top: 41%;
     left: 39%;
 
-    &:hover {
-      top: 42%;
-      left: 39%;
-    }
-
-    &:hover svg {
-      width: 110px;
-      height: 90px;
-    }
-
-    &:active {
-      top: 41%;
-      left: 40%;
-    }
-
-    &:active svg {
-      width: 80px;
-      height: 75px;
-      fill: #d0f1ea;
-    }
+    svg {
+    fill: #63d1bb;
   }
+
+  &:hover svg {
+    transform: scale(1.2);
+  }
+
+  &:active svg {
+    transform: scale(0.8);
+    fill: #d0f1ea;
+  }
+}
 }
