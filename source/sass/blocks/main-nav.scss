@@ -51,7 +51,7 @@
     left: -40px;
   }
 
-   svg {
+  svg {
     fill: #d3d2d2;
   }
 }
@@ -59,7 +59,7 @@
 .main-nav__link:hover {
   color: #8d8d8d;
 
-   svg {
+  svg {
     fill: #63d1bb;
   }
 }
@@ -67,7 +67,7 @@
 .main-nav__link:active {
   color: #cacaca;
 
-   svg {
+  svg {
     fill: #d0f1ea;
   }
 }
@@ -177,7 +177,7 @@
   }
 
   .main-nav__link {
-     span {
+    span {
       left: -51px;
       top: 3px;
     }
@@ -197,7 +197,9 @@
     width: 1150px;
     margin-top: 0;
     min-height: 88px;
+    outline: none;
   }
+
   .main-nav__menu {
     width: 1050px;
   }
@@ -206,6 +208,7 @@
     margin-top: -87px;
     width: 1050px;
     border-bottom: 1px solid #e7e7e7;
+    outline: none;
   }
 
   .main-nav__item {
@@ -295,9 +298,9 @@
 
   .main-nav__logo {
     margin: 0;
-      padding-top: 6px;
-      width: 149px;
-      height: 74px;
+    padding-top: 6px;
+    width: 149px;
+    height: 74px;
     // width: 150px;
     // height: 88px;
     // padding-top: 0;

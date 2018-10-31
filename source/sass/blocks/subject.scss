@@ -13,7 +13,7 @@
   position: relative;
   z-index: 20;
 
-   span {
+  span {
     display: block;
     margin: 0 auto;
 
@@ -62,7 +62,7 @@
     width: 668px;
     padding-top: 111px;
 
-     span {
+    span {
       display: block;
       margin: 0 auto;
 
@@ -97,7 +97,7 @@
     width: 700px;
     padding-top: 90px;
 
-     span {
+    span {
       &:nth-of-type(3) {
         width: 501px;
       }

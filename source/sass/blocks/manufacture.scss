@@ -66,9 +66,10 @@
   width: 190px;
   margin-left: 33px;
   margin-bottom: 35px;
-   svg {
+
+  svg {
     fill: #62d1ba;
-   }
+  }
 }
 
 @media (min-width: $tablet-width) {
@@ -123,19 +124,19 @@
     top: 41%;
     left: 43%;
 
-   svg {
-    fill: #62d1ba;
-  }
+    svg {
+      fill: #62d1ba;
+    }
 
-  &:hover svg {
-    transform: scale(1.2);
-  }
+    &:hover svg {
+      transform: scale(1.2);
+    }
 
-  &:active svg {
-    transform: scale(0.8);
-    fill: #d0f1ea;
+    &:active svg {
+      transform: scale(0.8);
+      fill: #d0f1ea;
+    }
   }
-}
 }
 
 @media (min-width: $desktop-width) {
@@ -184,16 +185,16 @@
     left: 39%;
 
     svg {
-    fill: #62d1ba;
-  }
+      fill: #62d1ba;
+    }
 
-  &:hover svg {
-    transform: scale(1.2);
-  }
+    &:hover svg {
+      transform: scale(1.2);
+    }
 
-  &:active svg {
-    transform: scale(0.8);
-    fill: #d0f1ea;
+    &:active svg {
+      transform: scale(0.8);
+      fill: #d0f1ea;
+    }
   }
-}
 }

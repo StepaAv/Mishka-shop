@@ -9,9 +9,11 @@
   justify-content: space-around;
   width: 183px;
   padding-right: 2px;
+
   .social__item:nth-of-type(1) {
     padding-top: 7px;
   }
+
   .social__item:nth-of-type(3) {
     padding-top: 6px;
   }
@@ -25,8 +27,4 @@
   &:active > svg {
     fill: #bde3dd;
   }
-}
-
-@media (min-width: $tablet-width) {
-
 }

@@ -33,12 +33,14 @@
   font-size: 17px;
   line-height: 24px;
   font-weight: bold;
+
   &:hover {
-      color: #8d8d8d;
-    }
-    &:active {
-      color: #cacaca;
-    }
+    color: #8d8d8d;
+  }
+
+  &:active {
+    color: #cacaca;
+  }
 }
 
 .item-card__buy-basket {
@@ -117,14 +119,17 @@
     padding-left: 33px;
     padding-right: 33px;
   }
-.item-card__price {
-  font-size: 17px;
-  padding-top: 23px;
-  border-top: 1px solid #ededed;
-}
-.item-card__buy-basket {
-  border-top: 1px solid #ededed;
-}
+
+  .item-card__price {
+    font-size: 17px;
+    padding-top: 23px;
+    border-top: 1px solid #ededed;
+  }
+
+  .item-card__buy-basket {
+    border-top: 1px solid #ededed;
+  }
+
   .item-card__title {
     font-size: 20px;
     line-height: 24px;
@@ -161,9 +166,11 @@
     max-width: 100%;
     height: auto;
   }
-.item-card__buy-basket {
-  margin-right: 20px;
-}
+
+  .item-card__buy-basket {
+    margin-right: 20px;
+  }
+
   .item-card__box-wrap {
     width: 315px;
     margin-top: -3px;
@@ -189,10 +196,12 @@
     }
 
   }
+
   .item-card__desc-wrap {
     padding-left: 0px;
     padding-right: 0px;
   }
+
   .item-card__box-wrap {
     .item-card__description {
       padding-bottom: 12px;

@@ -13,9 +13,11 @@
 .form__type-list {
   @include list-reset;
 }
+
 .form__legend-wrap {
   outline: none;
 }
+
 .form__legend {
   outline: none;
   margin-top: 16px;
@@ -27,32 +29,37 @@
   padding-right: 23px;
   white-space: nowrap;
   position: relative;
-   &:after {
+
+  &:after {
     content: "";
-  width: 220px;
-  height: 2px;
-  margin-top: 7px;
-  left: 52px;
-  background-color: #62d1ba;
-  position: absolute;
-  overflow: hidden;
-   }
-   &--names:after {
+    width: 220px;
+    height: 2px;
+    margin-top: 7px;
+    left: 52px;
+    background-color: #62d1ba;
+    position: absolute;
+    overflow: hidden;
+  }
+
+  &--names:after {
     width: 201px;
     left: 61px;
-   }
-   &--tel:after {
+  }
+
+  &--tel:after {
     width: 199px;
     left: 62px;
-   }
-   &--mail:after {
+  }
+
+  &--mail:after {
     width: 181px;
     left: 79px;
-   }
-   &--aditional:after {
+  }
+
+  &--aditional:after {
     width: 198px;
     left: 62px;
-   }
+  }
 }
 
 .form__text {
@@ -150,8 +157,8 @@
   &--textarea {
     margin-top: 0;
     margin-bottom: 10px;
-    }
   }
+}
 
 
 .form__input--contacts {
@@ -167,9 +174,11 @@
   padding-left: 60px;
   min-height: 120px;
 }
+
 .form__names-list {
   height: 268px;
 }
+
 .form__type-item {
   padding-top: 21px;
   position: relative;
@@ -275,39 +284,53 @@
     font-size: 17px;
     font-weight: 18px;
   }
+
   .form__submit-wrap {
     outline: none
   }
 }
 
 .form__input--tel {
-    margin-top: 13px;
+  margin-top: 13px;
+}
+
+.form__legend--mail {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.form__legend--aditional {
+  margin-bottom: 16px;
+}
+
+.form__phone-mail {
+  position: relative;
+}
+
+.form__input-icon {
+  position: absolute;
+
+  svg {
+    fill: #c1c1c1;
   }
 
-  .form__legend--mail {
-    margin-top: 20px;
-    margin-bottom: 15px;
-  }
-
-  .form__legend--aditional {
-    margin-bottom: 16px;
-  }
-  .form__phone-mail {
-    position: relative;
-  }
-  .form__input-icon {
-    position: absolute;
-        svg {
-      fill: #c1c1c1;
-    }
-    &--phone {
-      right: 7px;
+  &--phone {
+    right: 7px;
     top: 46px;
-    }
-    &--mail {
-      right: 3px;
+  }
+
+  &--mail {
+    right: 3px;
     top: 52px;
-    }
+  }
+}
+
+.form__input:hover~.form__input-icon svg {
+  fill: #62d1ba;
+}
+
+.form__input:focus~.form__input-icon svg {
+  fill: #62d1ba;
 }
 
 @media (min-width: $tablet-width) {
@@ -316,9 +339,10 @@
     position: relative;
     outline: none;
   }
-.form__item--color {
-  height: 306px;
-}
+
+  .form__item--color {
+    height: 306px;
+  }
 
   .form__legend {
     width: 167px;
@@ -328,10 +352,12 @@
     font-size: 17px;
     line-height: 16px;
     font-weight: bold;
+
     &:after {
-   display: none;
+      display: none;
+    }
   }
-}
+
   .form__text {
     font-size: 19px;
     line-height: 18px;
@@ -344,6 +370,7 @@
 
   .form__input {
     outline: none;
+
     &::placeholder {
       font-size: 19px;
       line-height: 18px;
@@ -464,13 +491,13 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-       justify-content: space-between;
+    justify-content: space-between;
     width: 500px;
     position: relative;
     z-index: 20;
-   padding-top: 66px;
-   padding-bottom: 74px;
-padding-left: 0;
+    padding-top: 66px;
+    padding-bottom: 74px;
+    padding-left: 0;
 
   }
 
@@ -570,14 +597,17 @@ padding-left: 0;
     padding: 0;
     padding-top: 10px;
     padding-left: 20px;
+
     &::placeholder {
       padding: 0;
       width: 350px;
     }
   }
+
   .form__submit-wrap {
     outline: none
   }
+
   .form__input--names {
     padding-top: 20px;
     padding-left: 23px;
@@ -586,16 +616,18 @@ padding-left: 0;
   .form__input-icon {
     &--phone {
       right: 25px;
-    top: 9px;
+      top: 9px;
     }
+
     &--mail {
       right: 20px;
-    top: 17px;
+      top: 17px;
     }
-}
-.form__legend--mail {
-  margin-top: 9px;
-}
+  }
+
+  .form__legend--mail {
+    margin-top: 9px;
+  }
 }
 
 @media (min-width: $desktop-width) {
@@ -655,29 +687,36 @@ padding-left: 0;
   .form__input--contacts {
     width: 710px;
   }
+
   .form__submit-wrap {
     outline: none
   }
+
   .form__legend--names {
     margin-right: 10px;
   }
+
   .form__legend--mail {
     margin-top: 12px;
   }
+
   .form__input--tel {
     margin-top: 7px;
   }
+
   .form__input--mail {
-        padding-left: 24px;
+    padding-left: 24px;
   }
+
   .form__input-icon {
     &--phone {
       right: 185px;
-    top: 9px;
+      top: 9px;
     }
+
     &--mail {
       right: 181px;
-    top: 18px;
+      top: 18px;
     }
-}
+  }
 }

@@ -10,40 +10,40 @@
 }
 
 .main-page__precontainer--grey-wave {
-    position: relative;
+  position: relative;
 
-    &:after {
-      content: "";
-      background-image: url(../img/bg-zigzag-line.svg);
-      background-repeat: repeat-x;
-      background-size: contain;
-      width: 100%;
-      height: 25px;
-      margin: 0 auto;
-      position: absolute;
-      bottom: -28px;
-      z-index: 6000;
-      overflow: visible;
-    }
+  &::after {
+    content: "";
+    background-image: url("../img/bg-zigzag-line.svg");
+    background-repeat: repeat-x;
+    background-size: contain;
+    width: 100%;
+    height: 25px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -28px;
+    z-index: 6000;
+    overflow: visible;
   }
+}
 
-  .main-page__precontainer--grey-second {
-    position: relative;
+.main-page__precontainer--grey-second {
+  position: relative;
 
-    &:after {
-      content: "";
-      background-image: url(../img/bg-zigzag-line.svg);
-      background-repeat: repeat-x;
-      background-size: contain;
-      width: 100%;
-      height: 25px;
-      margin: 0 auto;
-      position: absolute;
-      bottom: -69px;
-      z-index: 6000;
-      overflow: visible;
-    }
+  &::after {
+    content: "";
+    background-image: url("../img/bg-zigzag-line.svg");
+    background-repeat: repeat-x;
+    background-size: contain;
+    width: 100%;
+    height: 25px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -69px;
+    z-index: 6000;
+    overflow: visible;
   }
+}
 
 .main-page__text {
   margin: 0;

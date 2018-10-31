@@ -66,6 +66,7 @@
 
 .top-week__img-wrap {
   margin-top: 26px;
+  outline: none;
 }
 
 .top-week__price {
@@ -175,6 +176,10 @@
   .top-week {
     margin-top: 83px;
     min-height: 628px;
+  }
+
+  .top-week__wrap {
+    outline: none;
   }
 
   .top-week__list {

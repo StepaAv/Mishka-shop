@@ -2,6 +2,7 @@
   margin-top: 4px;
   outline: none;
 }
+
 .feedback__slider-list {
   @include list-reset
 }
@@ -174,15 +175,18 @@
     border: none;
     width: 83px;
   }
+
   .feedback__slider-item {
     border: none;
     width: 83px;
   }
+
   .feedback__slider-item--left {
-margin-left: 14px;
+    margin-left: 14px;
   }
+
   .feedback__slider-item--right {
-   padding-left: 43px;
+    padding-left: 43px;
   }
 }
 
@@ -237,10 +241,12 @@ margin-left: 14px;
     padding-left: 467px;
     margin-top: -30px;
   }
+
   .feedback__slider-item--left {
-margin-left: -23px;
+    margin-left: -23px;
   }
+
   .feedback__slider-item--right {
-   padding-left: 43px;
+    padding-left: 43px;
   }
 }
