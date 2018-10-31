@@ -52,6 +52,10 @@
     &--colored {
       background-color: #f1f1f1;
     }
+
+    &--wtf {
+      height: 307px;
+    }
   }
 }
 
@@ -81,9 +85,9 @@
   .container--grey-wave {
     position: relative;
 
-    &:after {
+    &::after {
       content: "";
-      background-image: url(../img/bg-zigzag-line.svg);
+      background-image: url("../img/bg-zigzag-line.svg");
       background-repeat: repeat-x;
       width: 1050px;
       height: 25px;
@@ -98,9 +102,9 @@
   .container--grey-second {
     position: relative;
 
-    &:after {
+    &::after {
       content: "";
-      background-image: url(../img/bg-zigzag-line.svg);
+      background-image: url("../img/bg-zigzag-line.svg");
       background-repeat: repeat-x;
       width: 1050px;
       height: 25px;
