@@ -9,7 +9,7 @@
   margin-top: -4px;
 
   &:hover {
-    box-shadow: 0px 6px 12px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 12px 1px rgba(0, 0, 0, 0.1);
   }
 }
 
@@ -49,6 +49,11 @@
   width: 25px;
   text-align: right;
   cursor: pointer;
+  padding-top: 20px;
+
+  svg {
+    fill: #cccccc;
+  }
 
   &:hover svg {
     fill: #63d1bb;
@@ -78,15 +83,6 @@
   flex-grow: 1;
 }
 
-.item-card__buy-basket {
-  display: block;
-  padding-top: 20px;
-
-  svg {
-    fill: #cccccc;
-  }
-}
-
 @media (min-width: $tablet-width) {
   .item-card {
     display: flex;
@@ -102,7 +98,7 @@
   .item-card__box-wrap {
     width: 334px;
     height: 334px;
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .item-card__desc-wrap {
@@ -111,7 +107,6 @@
     padding-left: 28px;
     padding-right: 72px;
     border-bottom: none;
-
   }
 
   .item-card__price-wrap {
@@ -149,20 +144,7 @@
     width: 315px;
   }
 
-  .item-card__desc-wrap {
-    width: 257px;
-    min-height: 122px;
-    margin-left: 24px;
-  }
-
-  .item-card__img-wrap {
-    // width: 315px;
-    // height: 462px;
-  }
-
   .item-card__picture {
-    // width: 315px;
-    // height: 462px;
     max-width: 100%;
     height: auto;
   }
@@ -171,22 +153,14 @@
     margin-right: 20px;
   }
 
-  .item-card__box-wrap {
-    width: 315px;
-    margin-top: -3px;
-    height: 196px;
-  }
-
   .item-card__price-wrap {
     height: 73px;
     padding-left: 25px;
-
   }
 
   .item-card__price {
     font-size: 17px;
     padding-top: 23px;
-
   }
 
   .item-card__title {
@@ -194,15 +168,21 @@
       display: block;
       width: 155px;
     }
-
   }
 
   .item-card__desc-wrap {
-    padding-left: 0px;
-    padding-right: 0px;
+    width: 257px;
+    min-height: 122px;
+    margin-left: 24px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .item-card__box-wrap {
+    width: 315px;
+    margin-top: -3px;
+    height: 196px;
+
     .item-card__description {
       padding-bottom: 12px;
     }

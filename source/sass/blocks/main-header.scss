@@ -72,6 +72,10 @@
     font-size: 15px;
     line-height: 24px;
     font-weight: bold;
+    position: relative;
+    z-index: 10000;
+    width: 175px;
+    padding-left: 42px;
   }
 
   .main-header__new-stuff {
@@ -80,29 +84,15 @@
     font-size: 15px;
     line-height: 24px;
     font-weight: bold;
-
+    position: relative;
+    z-index: 10000;
+    width: 175px;
   }
 
   .main-header__addons {
     display: flex;
-    // width: 1050px;
     min-height: 52px;
     padding-top: 14px;
-  }
-
-  .main-header__sales {
-    display: block;
-    position: relative;
-    z-index: 10000;
-    width: 175px;
-    padding-left: 42px;
-  }
-
-  .main-header__new-stuff {
-    display: block;
-    position: relative;
-    z-index: 10000;
-    width: 175px;
   }
 
   .main-header__delivery {

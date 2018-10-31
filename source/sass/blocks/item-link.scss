@@ -44,11 +44,11 @@
   }
 }
 
-.item-link__title--light:active>.item-link__icon svg {
+.item-link__title--light:active > .item-link__icon svg {
   fill: #44c0aa;
 }
 
-.item-link__title--lego:active>.item-link__icon svg {
+.item-link__title--lego:active > .item-link__icon svg {
   fill: #37b2a0;
 }
 
@@ -67,7 +67,6 @@
 @media (min-width: $tablet-width) {
   .item-link {
     display: flex;
-
   }
 
   .item-link__icon {
@@ -107,7 +106,6 @@
     margin-top: 0;
     padding-top: 33px;
     margin-left: 300px;
-
   }
 
   .item-link__icon--light {

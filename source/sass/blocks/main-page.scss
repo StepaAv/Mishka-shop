@@ -61,9 +61,9 @@
   .main-page__precontainer--grey-wave {
     position: relative;
 
-    &:after {
+    &::after {
       content: "";
-      background-image: url(../img/bg-zigzag-line.svg);
+      background-image: url("../img/bg-zigzag-line.svg");
       background-repeat: repeat-x;
       width: 100vw;
       height: 25px;
@@ -78,9 +78,9 @@
   .main-page__precontainer--grey-second {
     position: relative;
 
-    &:after {
+    &::after {
       content: "";
-      background-image: url(../img/bg-zigzag-line.svg);
+      background-image: url("../img/bg-zigzag-line.svg");
       background-repeat: repeat-x;
       width: 100vw;
       height: 25px;
@@ -96,9 +96,9 @@
     background-color: #f9f9f9;
     position: relative;
 
-    &:after {
+    &::after {
       content: "";
-      background-image: url(../img/bg-zigzag-fill.svg);
+      background-image: url("../img/bg-zigzag-fill.svg");
       width: 100vw;
       height: 25px;
       position: absolute;
@@ -114,9 +114,9 @@
     position: relative;
     padding-top: 54px;
 
-    &:after {
+    &::after {
       content: "";
-      background-image: url(../img/bg-zigzag-fill.svg);
+      background-image: url("../img/bg-zigzag-fill.svg");
       width: 100vw;
       height: 25px;
       position: absolute;
@@ -139,7 +139,7 @@
   .main-page--index {
     position: relative;
 
-    &:before {
+    &::before {
       content: "";
       width: 100vw;
       height: 50px;
@@ -154,7 +154,7 @@
   .main-page--catalog {
     position: relative;
 
-    &:before {
+    &::before {
       content: "";
       width: 100vw;
       height: 50px;
@@ -169,7 +169,7 @@
   .main-page--form {
     position: relative;
 
-    &:before {
+    &::before {
       content: "";
       width: 100vw;
       height: 50px;
@@ -184,19 +184,15 @@
 
 @media (min-width: $desktop-width) {
   .main-page__precontainer--grey-wave {
-    &:after {
+    &::after {
       background-image: none;
     }
   }
 
   .main-page__precontainer--grey-second {
-    &:after {
+    &::after {
       background-image: none;
     }
-  }
-
-  .main-page--index {
-    margin-top: 7px;
   }
 
   .main-page__title {
@@ -205,9 +201,9 @@
     padding-top: 39px;
     min-height: 199px;
 
-    &:after {
+    &::after {
       content: "";
-      background-image: url(../img/bg-zigzag-fill.svg);
+      background-image: url("../img/bg-zigzag-fill.svg");
       width: 100vw;
       height: 25px;
       position: absolute;
@@ -219,9 +215,10 @@
   }
 
   .main-page--index {
+    margin-top: 7px;
     position: relative;
 
-    &:before {
+    &::before {
       content: "";
       width: 100vw;
       height: 63px;
@@ -236,7 +233,7 @@
   .main-page--catalog {
     position: relative;
 
-    &:before {
+    &::before {
       content: "";
       width: 100vw;
       height: 63px;
@@ -252,9 +249,9 @@
     background-color: #f9f9f9;
     position: relative;
 
-    &:after {
+    &::after {
       content: "";
-      background-image: url(../img/bg-zigzag-fill.svg);
+      background-image: url("../img/bg-zigzag-fill.svg");
       width: 100vw;
       height: 25px;
       position: absolute;
@@ -266,7 +263,7 @@
   .main-page--form {
     position: relative;
 
-    &:before {
+    &::before {
       content: "";
       width: 100vw;
       height: 63px;
