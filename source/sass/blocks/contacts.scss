@@ -166,6 +166,17 @@ margin: 0 auto;
     font-size: 43px;
     line-height: 50px;
     margin-top: 56px;
+    position: relative;
+    &:before {
+      content: "";
+      background-image: url("../img/icon-flag.svg");
+      background-repeat: no-repeat;
+      position: absolute;
+      width: 50px;
+      height: 82px;
+      right: 0;
+      top: -17px;
+    }
   }
 
   .contacts__text--adress {
@@ -208,6 +219,10 @@ margin: 0 auto;
     line-height: 57px;
     width: 350px;
     margin-top: 89px;
+    &:before {
+      left: -115px;
+      top: -8px;
+    }
   }
 
   .contacts__list {
