@@ -1,4 +1,12 @@
-*:focus {
+a:focus {
+  outline: 1px solid #62d1ba;
+}
+
+button:focus {
+  outline: 1px solid #62d1ba;
+}
+
+label:focus {
   outline: 1px solid #62d1ba;
 }
 

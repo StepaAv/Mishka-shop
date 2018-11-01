@@ -7,8 +7,9 @@
   @include list-reset;
   display: flex;
   justify-content: space-around;
-  width: 183px;
+  width: 179px;
   padding-right: 2px;
+  margin-left: 14px;
 
   .social__item:nth-of-type(1) {
     padding-top: 7px;
