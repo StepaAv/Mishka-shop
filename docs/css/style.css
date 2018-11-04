@@ -1736,6 +1736,8 @@ html {
   .item-link__title:hover {
     min-height: 108px;
     margin-top: -5px; }
+  .item-link__title:focus {
+    outline: 2px solid cyan; }
 
 .item-link__title--light:active > .item-link__icon svg {
   fill: #44c0aa; }
