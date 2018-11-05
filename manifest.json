@@ -1,0 +1,35 @@
+{
+  "name": "Вязаные игрушки и предметы интерьера ручной работы",
+  "short_name": "Магазин Мишка",
+  "lang": "ru-RU",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "#63d1bb",
+  "icons": [
+    {
+      "src": "img/manifest/icon-44.png",
+      "sizes": "44x44",
+      "type": "image/png"
+    },
+    {
+      "src": "img/manifest/icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "img/manifest/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "img/manifest/icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "img/manifest/icon-256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ]
+}
