@@ -1,6 +1,6 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
-* Студент: [Stepan Avdevic](https://up.htmlacademy.ru/adaptive/15/user/570493).
+* Студент: [noname](https://up.htmlacademy.ru/adaptive/15/user/570493).
 * Наставник: [nobody].
 
 ---
